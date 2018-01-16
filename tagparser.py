@@ -7,6 +7,7 @@ searchop=re.compile(r".*<todo.*>")
 tagsclctr = {}
 currstation=""
 counter=0
+station=''
 
 match=lambda x,y: x.match(y) if x.match(y) else None
 def tagscollect(row,station):
@@ -20,12 +21,13 @@ def tagscollect(row,station):
             tagsclctr[counter] = 'Pending'
 
 for row in tmplt.readlines():
-    #iteration and station collecting
-#    station=re.search(r"\={2,}.*", row)
-    station=re.search(r"={2,}\s(.*?)\s={2,}", row)
-    if station:
-        print(station)
-    #tagscollect(row, station)
+
+    st=re.search(r"={2,}?\s(.*?)\s={2,}", row)
+    if st:
+        #print(st[1])
+        station=st[1]
+    tagscollect(row, station)
 tmplt.close()
 
-#print(tagsclctr)
+
+print(tagsclctr[4])
