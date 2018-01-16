@@ -10,17 +10,18 @@ counter=0
 
 match=lambda x,y: x.match(y) if x.match(y) else None
 def tagscollect(row,station):
-    if match(searchop,row):
+    global counter
+    if match(searchop,row): #finding only opening tags
+        counter += 1
         tagstatus=re.search(r"<todo.*(#.*?>)", row)
-        if tagstatus: # if job done, adding with Done status
+        if tagstatus: # analysing opening tag and if job done, adding with Done status
             tagsclctr[counter] = [station,tagstatus[1] ,'Done']
-        else:
+        else: # analysing opening tag and if job not executed, adding with Pending status
             tagsclctr[counter] = 'Pending'
 
 for row in tmplt.readlines():
     #iteration and station collecting
     station='sys10'
-    counter += 1
     tagscollect(row, station)
 tmplt.close()
 
