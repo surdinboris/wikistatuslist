@@ -13,15 +13,16 @@ def tagscollect(row,station):
     global counter
     if match(searchop,row): #finding only opening tags
         counter += 1
-        tagstatus=re.search(r"<todo.*(#.*?>)", row)
+        tagstatus=re.search(r"<todo.*#(.*?):(.*?)>", row)
         if tagstatus: # analysing opening tag and if job done, adding with Done status
-            tagsclctr[counter] = [station,tagstatus[1] ,'Done']
+            tagsclctr[counter] = [station,tagstatus[1],tagstatus[2],'Done']
         else: # analysing opening tag and if job not executed, adding with Pending status
             tagsclctr[counter] = 'Pending'
 
 for row in tmplt.readlines():
     #iteration and station collecting
-    station='sys10'
+#    station=re.search(r"\={2,}.*", row)
+    station=re.search(r"={3,}(.*)", row)
     tagscollect(row, station)
 tmplt.close()
 
