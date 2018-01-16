@@ -22,7 +22,7 @@ def tagscollect(row,station):
 for row in tmplt.readlines():
     #iteration and station collecting
 #    station=re.search(r"\={2,}.*", row)
-    station=re.search(r"==.*", row)
+    station=re.search(r"={2,}(.*?)={2,}", row)
     print(station)
     tagscollect(row, station)
 tmplt.close()
