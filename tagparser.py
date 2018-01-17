@@ -8,7 +8,6 @@ tagsclctr = {}
 currstation=""
 counter=0
 station=''
-
 match=lambda x,y: x.match(y) if x.match(y) else None
 def tagscollect(row,station):
     global counter
@@ -16,18 +15,17 @@ def tagscollect(row,station):
         counter += 1
         tagstatus=re.search(r"<todo.*#(.*?):(.*?)>", row)
         if tagstatus: # analysing opening tag and if job done, adding with Done status
-            tagsclctr[counter] = [station,tagstatus[1],tagstatus[2],'Done']
+            tagsclctr[counter] = [station,'Done',tagstatus[1],tagstatus[2]]
         else: # analysing opening tag and if job not executed, adding with Pending status
-            tagsclctr[counter] = 'Pending'
+            tagsclctr[counter] = [station,'Pending']
 
 for row in tmplt.readlines():
-
-    st=re.search(r"={2,}?\s(.*?)\s={2,}", row)
+    st=re.search(r"={2,}?\s(.*?)\s*={2,}", row)
     if st:
         #print(st[1])
         station=st[1]
     tagscollect(row, station)
 tmplt.close()
-
-
-print(tagsclctr[4])
+for item in tagsclctr.items():
+    print(item)
+#print(tagsclctr)
