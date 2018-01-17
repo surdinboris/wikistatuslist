@@ -2,7 +2,7 @@ import re
 import os
 debug=False
 
-tmplt=open(os.path.join(os.getcwd(),'cdc/','ibox1982.txt'),'r', encoding="utf-8")
+tmplt=open(os.path.join(os.getcwd(),'cdc/','ibox1967.txt'),'r', encoding="utf-8")
 searchop=re.compile(r".*<todo.*>")
 tagsclctr = {}
 currstation=""
