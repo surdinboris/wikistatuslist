@@ -1,31 +1,43 @@
 import re
 import os
-debug=False
+class Collector:
+    def __init__(self, tmplt):
+        self.debug = False
+        #self.tmplt = open(os.path.join(os.getcwd(), 'cdc/', 'ibox1967.txt'), 'r', encoding="utf-8")
+        self.tmplt=tmplt
+        self.searchop = re.compile(r".*<todo.*>")
+        self.tagsclctr = {}
+        self.currstation = ""
+        self.counter = 0
+        self.station = ''
+        self.match = lambda x, y: x.match(y) if x.match(y) else None
 
-tmplt=open(os.path.join(os.getcwd(),'cdc/','ibox1967.txt'),'r', encoding="utf-8")
-searchop=re.compile(r".*<todo.*>")
-tagsclctr = {}
-currstation=""
-counter=0
-station=''
-match=lambda x,y: x.match(y) if x.match(y) else None
-def tagscollect(row,station):
-    global counter
-    if match(searchop,row): #finding only opening tags
-        counter += 1
-        tagstatus=re.search(r"<todo.*#(.*?):(.*?)>", row)
-        if tagstatus: # analysing opening tag and if job done, adding with Done status
-            tagsclctr[counter] = [station,'Done',tagstatus[1],tagstatus[2]]
-        else: # analysing opening tag and if job not executed, adding with Pending status
-            tagsclctr[counter] = [station,'Pending']
+        self.tmplt=open(self.tmplt, 'r', encoding="utf-8")
+        for row in self.tmplt.readlines():
+            st = re.search(r"={2,}?\s(.*?)\s*={2,}", row)
+            if st:
+                if self.debug:
+                    print(st[1])
+                self.station = st[1]
+            self.tagscollect(row, self.station)
+        self.tmplt.close()
+        if self.debug:
+            for item in self.tagsclctr.items():
+                 print(item)
 
-for row in tmplt.readlines():
-    st=re.search(r"={2,}?\s(.*?)\s*={2,}", row)
-    if st:
-        #print(st[1])
-        station=st[1]
-    tagscollect(row, station)
-tmplt.close()
-for item in tagsclctr.items():
-    print(item)
-#print(tagsclctr)
+    def tagscollect(self,row,station):
+        if self.match(self.searchop,row): #finding only opening tags
+            self.counter += 1
+            tagstatus=re.search(r"<todo.*#(.*?):(.*?)>", row)
+            if tagstatus: # analysing opening tag and if job done, adding with Done status
+                self.tagsclctr[self.counter] = [station,'Done',tagstatus[1],tagstatus[2]]
+            else: # analysing opening tag and if job not executed, adding with Pending status
+                self.tagsclctr[self.counter] = [station,'Pending','','']
+
+#Example
+# ct=Collector(os.path.join(os.getcwd(), 'cdc/', 'ibox1967.txt'))
+# print(ct.tagsclctr)
+# for f in os.listdir(os.path.join(os.getcwd(), 'cdc/')):
+#     print("----------------------%s-------------------------" %f)
+#     ct=Collector(os.path.join(os.getcwd(),'cdc/',f))
+#     print(ct.tagsclctr)

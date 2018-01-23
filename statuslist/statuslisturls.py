@@ -9,5 +9,9 @@ app_name='statuslist'
 #url (r'^statuslist', include(admin.site.urls)),
 
 urlpatterns = [
-    url(r'^home/', views.home, name='home'),
+url(r'^main/', views.main, name='main'),
+url(r'^detail/(?P<ibox>ibox[0-9]+)/', views.detail, name='detail'),
 ]
+
+
+#url(r'^(?P<ibox>[0-9]+)/$', views.detail, name='detail'),
