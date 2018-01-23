@@ -33,6 +33,7 @@ def detail(request,ibox):
             #implementing of http://www.dangtrinh.com/2013/07/django-celery-display-progress-bar-of.html
             #use database for sroring progress info that periodically will be updated from task lists
             #finishing with closing status and remooving of finished
+            #
     print(type(ct))
 
     return render(request,'detail.html', {'ibox': ibox, 'ct':ct})
