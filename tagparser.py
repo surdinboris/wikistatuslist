@@ -30,9 +30,9 @@ class Collector:
             self.counter += 1
             tagstatus=re.search(r"<todo.*#(.*?):(.*?)>", row)
             if tagstatus: # analysing opening tag and if job done, adding with Done status
-                self.tagsclctr[self.counter] = [station,'Done',tagstatus[1],tagstatus[2]]
+                self.tagsclctr[self.counter] = {'station':station,'status':'Done','user':tagstatus[1],'sdate':tagstatus[2]}
             else: # analysing opening tag and if job not executed, adding with Pending status
-                self.tagsclctr[self.counter] = [station,'Pending','','']
+                self.tagsclctr[self.counter] = {'station':station,'status':'Pending','user':'','sdate':''}
 
 #Example
 # ct=Collector(os.path.join(os.getcwd(), 'cdc/', 'ibox1967.txt'))
