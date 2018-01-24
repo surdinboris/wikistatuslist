@@ -4,7 +4,6 @@ from tagparser import *
 import os
 import re
 
-
 def main(request):
     wikiplist=[f for f in os.listdir(os.path.join(os.getcwd(), 'cdc/'))]
     wikistat={}
