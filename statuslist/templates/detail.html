@@ -26,12 +26,12 @@
         <td>User</td>
         <td>Date</td>
     </tr>
-         {% for item in ct.values %}
+         {% for tag in tags.values %}
              <tr>
-                 <td> {{ item.station }}</td>
-                 <td> {{ item.status}}</td>
-                 <td> {{ item.user }} </td>
-                 <td> {{ item.sdate }}</td>
+                 <td> {{ tag.station }}</td>
+                 <td> {{ tag.status}}</td>
+                 <td> {{ tag.user }} </td>
+                 <td> {{ tag.date }}</td>
              </tr>
 {% endfor %}
 </table>

@@ -7,6 +7,19 @@
 
 </head>
 <body>
-
+<table>
+  <tr>
+        <td>System</td>
+        <td>Total</td>
+        <td>Done</td>
+    </tr>
+         {% for tag in wikistat.values %}
+             <tr>
+                 <td> {{ tag.wikipname }}</td>
+                 <td> {{ tag.total}}</td>
+                 <td> {{ tag.done }} </td>
+             </tr>
+{% endfor %}
+</table>
 </body>
 </html>

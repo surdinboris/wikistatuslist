@@ -6,40 +6,31 @@ import re
 
 
 def main(request):
-    cts="system not found"
-    cdclst=[f for f in os.listdir(os.path.join(os.getcwd(), 'cdc/'))]
-    srs=[]
-    for lso in cdclst:
-        sr=lso.replace(".txt","")
-        if sr:
-            print('found %s in wikipages' %sr)
-            parsr = Collector(os.path.join(os.getcwd(), 'cdc/', lso))
-            ct=parsr.tagsclctr
-            print(len(ct))
-    return render(request,'main.html', {'main': main})
-# Create your views here.
+    wikiplist=[f for f in os.listdir(os.path.join(os.getcwd(), 'cdc/'))]
+    wikistat={}
+    for wikip in wikiplist: #parsing each wikipage and counting missions that were done
+        wikipname=wikip.replace(".txt","")
+        tagstat={}
+        parsr = Collector(os.path.join(os.getcwd(), 'cdc/', wikip))
+        tags=(parsr.tagsclctr).values()
+        done = 0
+        for tag in tags:
+            if tag['status']  == 'Done':
+                done+=1
+        tagstat['wikipname']=wikipname
+        tagstat['total']=len(tags)
+        tagstat['done']=done
+        wikistat[wikipname]=tagstat
+
+    return render(request,'main.html', {'wikistat': wikistat})
 
 def detail(request,ibox):
-    ct="system not found"
-    cdclst=[f for f in os.listdir(os.path.join(os.getcwd(), 'cdc/'))]
-    for lso in cdclst:
-        sr=re.search(r'({})'.format(ibox),lso.replace(".txt",""))
-        if sr:
-            print('request found in wikipages')
-            parsr = Collector(os.path.join(os.getcwd(), 'cdc/', lso))
-            ct=parsr.tagsclctr
-            print(ct)
-
-            # print(ct)
-            # ct=[item for item in parsr.tagsclctr.values()]
-            #ct=[' '.join([str(key), ' '.join(item)]) for key, item in parsr.tagsclctr.items()]
-            # for key, item in parsr.tagsclctr.items():
-            #     d=' '.join([str(key), ' '.join(item)]) #joining contents of dict
-            #     print(d)
-            #implementing of calculation algorythom
-            #implementing of http://www.dangtrinh.com/2013/07/django-celery-display-progress-bar-of.html
-            #use database for sroring progress info that periodically will be updated from task lists
-            #finishing with closing status and remooving of finished
-
-
-    return render(request,'detail.html', {'ibox': ibox, 'ct':ct})
+    tags={}
+    wikiplist=[f for f in os.listdir(os.path.join(os.getcwd(), 'cdc/'))]
+    for wikip in wikiplist: #searching for apropriate page with request
+        wikipname=re.search(r'({})'.format(ibox),wikip.replace(".txt",""))
+        if wikipname:
+            print('page request found in wikipages %s' %wikipname)
+            parsr = Collector(os.path.join(os.getcwd(), 'cdc/', wikip))
+            tags=parsr.tagsclctr
+    return render(request,'detail.html', {'ibox': ibox, 'tags':tags})
