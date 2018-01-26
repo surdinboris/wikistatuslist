@@ -22,13 +22,9 @@ def main(request):
         wikilist.append(tagstat) #collect all items to list of lists for each system
         tagstat['total']=len(tags)
         tagstat['done']=done
+        tagstat['perc']=done/len(tags)*100
         wikistat[wikipname]=tagstat
-    wikitempl=[
-    ['Fru8it', 'Color'],
-    ['apple', 'green'],
-    ['banana', 'yellow'],
-    ['orange', 'orange']
-]
+
     return render(request,'status.html', {'wikistat': json.dumps(wikistat)})
 
 def detail(request,ibox):
