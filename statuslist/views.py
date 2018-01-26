@@ -3,10 +3,12 @@ from django.shortcuts import HttpResponse,HttpResponseRedirect,redirect
 from tagparser import *
 import os
 import re
+import json
 
 def main(request):
     wikiplist=[f for f in os.listdir(os.path.join(os.getcwd(), 'cdc/'))]
     wikistat={}
+    wikilist=[]
     for wikip in wikiplist: #parsing each wikipage and counting missions that were done
         wikipname=wikip.replace(".txt","")
         tagstat={}
@@ -17,11 +19,17 @@ def main(request):
             if tag['status']  == 'Done':
                 done+=1
         tagstat['wikipname']=wikipname
+        wikilist.append(tagstat) #collect all items to list of lists for each system
         tagstat['total']=len(tags)
         tagstat['done']=done
         wikistat[wikipname]=tagstat
-
-    return render(request,'main.html', {'wikistat': wikistat})
+    wikitempl=[
+    ['Fru8it', 'Color'],
+    ['apple', 'green'],
+    ['banana', 'yellow'],
+    ['orange', 'orange']
+]
+    return render(request,'status.html', {'wikistat': json.dumps(wikistat)})
 
 def detail(request,ibox):
     tags={}

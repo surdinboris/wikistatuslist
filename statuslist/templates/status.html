@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<title>Test Page</title>
+
+<!-- Might as well have some nice styling -->
+<style>
+
+
+table.data
+{
+    border: 1px solid gray;
+    width: 200px;
+}
+
+table.data td
+{
+    padding: 6px;
+        border: 1px solid gray;
+    width: 200px;
+}
+
+</style>
+
+<script language="javascript">
+
+// Here's some data.
+var data =JSON.parse("{{wikistat|escapejs}}")
+
+// Here's a function that formats data
+// passed to it in the above format
+// as a table. The HTML is returned
+// as a string.
+function createTable(data) {
+    var html = '';
+
+    // Assume data is an array of arrays,
+    // containing strings.
+
+    html += '<style> .equal-width td { width: 50%; } </style> <table class="data">';
+
+    // Step through the rows of the data.
+    for(var row in data) {
+        var rowData = data[row];
+
+        if(row == 0) {
+            html += '<tr style="font-weight: bold;">';
+        }
+        else {
+            html += '<tr>';
+
+
+        }
+
+        // Step through the columns in
+        // this row.
+        for(var col in rowData) {
+            var colData = rowData[col];
+
+            html += '<td>';
+            html += colData;
+            html += '</td>';
+        }
+
+            html += '<td>...........................................'
+            html +='<div id="h777" style="width:100%; background-color:grey;">';
+            html +='<div id="u666" style="width:%; height: 30px; background-color: green;"></div></div>';
+            html += '</td>';
+
+
+
+        html += '</tr>';
+    }
+
+    html += '</table>';
+
+    return html;
+}
+
+// This function takes the formatted HTML
+// and inserts it into the document as
+// 'child' HTML of the specified element.
+function insertHTML(id, html) {
+    var el = document.getElementById(id);
+    console.log(el);
+    if(!el) {
+        alert('Element with id ' + id + ' not found.');
+    }
+
+    el.innerHTML = html;
+}
+
+// This function ties things up.
+function run() {
+    var html = createTable(data);
+
+    insertHTML('tabledata', html);
+}
+
+// Run everything when the document loads.
+window.onload = run;
+
+</script>
+
+</head>
+
+<body>
+
+<div id="tabledata"></div>
+
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+            <div id="h777" style="width:100%; background-color:grey;">
+            <div id="u666" style="width:1%; height: 30px; background-color: green;"></div></div>
+</body>
+
+</html>

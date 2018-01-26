@@ -10,6 +10,7 @@ app_name='statuslist'
 
 urlpatterns = [
 url(r'^main/', views.main, name='main'),
+url(r'^status/', views.main, name='status'),
 url(r'^detail/(?P<ibox>ibox[0-9]+)/', views.detail, name='detail'),
 ]
 
