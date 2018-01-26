@@ -16,9 +16,8 @@ class Collector:
         for row in self.tmplt.readlines():
             st = re.search(r"={2,}?\s(.*?)\s*={2,}", row)
             if st:
-                if re.search(r".*reconfig.",row): #filtering unneccesary reconfigs
+                if re.search(r".*reconfig.",row): #filtering unneccesary reconfig actions
                     break
-                print("continue with ",st[1])
                 self.station = st[1]
             self.tagscollect(row, self.station)
         self.tmplt.close()
