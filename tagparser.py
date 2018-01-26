@@ -16,8 +16,9 @@ class Collector:
         for row in self.tmplt.readlines():
             st = re.search(r"={2,}?\s(.*?)\s*={2,}", row)
             if st:
-                if self.debug:
-                    print(st[1])
+                if re.search(r".*reconfig.*",st[1]): #filtering unneccesary reconfigs
+                    break
+                print("continue with ",st[1])
                 self.station = st[1]
             self.tagscollect(row, self.station)
         self.tmplt.close()
@@ -31,7 +32,7 @@ class Collector:
             tagstatus=re.search(r"<todo.*#(.*?):(.*?)>", row)
             if tagstatus: # analysing opening tag and if job done, adding with Done status
                 self.tagsclctr[self.counter] = {'station':station,'status':'Done','user':tagstatus[1],'date':tagstatus[2]}
-            else: # analysing opening tag and if job not executed, adding with Pending status
+            else: # analysing opening tag and if job not finished, adding with Pending status
                 self.tagsclctr[self.counter] = {'station':station,'status':'Pending','user':'','date':''}
 
 #Example
