@@ -16,7 +16,7 @@ class Collector:
         for row in self.tmplt.readlines():
             st = re.search(r"={2,}?\s(.*?)\s*={2,}", row)
             if st:
-                if re.search(r".*reconfig.*",st[1]): #filtering unneccesary reconfigs
+                if re.search(r".*reconfig.",row): #filtering unneccesary reconfigs
                     break
                 print("continue with ",st[1])
                 self.station = st[1]
