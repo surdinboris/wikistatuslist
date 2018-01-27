@@ -31,7 +31,6 @@ def detail(request,ibox):
     for wikip in wikiplist: #searching for apropriate page with request
         wikipname=re.search(r'({})'.format(ibox.lower()),wikip.replace(".txt",""))
         if wikipname:
-            print('page request found in wikipages %s' %wikipname)
             parsr = Collector(os.path.join(os.getcwd(), 'cdc/', wikip))
             tags=parsr.tagsclctr
     return render(request,'detail.html', {'ibox': ibox, 'tags':tags})
