@@ -173,7 +173,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 {{:cdc:pic018.jpg?200|}} \\
 <todo @prod #avivw:2018-01-14>וודא מדבקות צד ENC ישרות ונקיות </todo> \\
 <todo @prod #avivw:2018-01-14>וודא שכל הברגים סגורים ומהודקים לכל אורך הפרופילים</todo> \\
-<todo>.</todo> \\
+<todo #ben:2018-01-16>.</todo> \\
 <WRAP 300px bggrey >
 <form> 
  action pagemod [[cdc:ibox1969]] sys20_issue_cell
@@ -185,7 +185,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
  **Done** **by** **<color #22b14c>Aviv</color>**  **at** **2018-01-14 14:13** \\ <pagemod sys20_issue_cell output_before> **@@Status@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30 Generic ======
 <hidden>
-<todo @prod>יש לאסוף את הבנדלים הבאים מטה </todo> \\
+<todo @prod #ben:2018-01-16>יש לאסוף את הבנדלים הבאים מטה </todo> \\
 \\
 **עבור F6** \\
 \\
@@ -225,29 +225,29 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
  submit  "SUBMIT" 
 </form> 
 </WRAP> \\
-<todo @prod>וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון</todo> \\
-<todo @prod>הרכב צמות וחבר את הכבלים למגירה 
+<todo @prod #ben:2018-01-16>וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון</todo> \\
+<todo @prod #ben:2018-01-16>הרכב צמות וחבר את הכבלים למגירה 
 	ENC*-A
 	</todo> \\
 {{:cdc:30-1.jpg?200|}} \\
-<todo @prod>הרכב צמות וחבר את הכבלים למגירה 
+<todo @prod #ben:2018-01-16>הרכב צמות וחבר את הכבלים למגירה 
 	ENC*-B
 	</todo> \\
 {{:cdc:30-2.jpg?200|}} \\
-<todo @prod>חווט את הצמות לתעלת חיווט </todo> \\
+<todo @prod #ben:2018-01-16>חווט את הצמות לתעלת חיווט </todo> \\
 {{:cdc:30-3.jpg?200|}} \\
 <todo @prod>בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar</todo> \\
 {{:cdc:30-4.jpg?200|}} \\
-<todo @prod>וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
+<todo @prod #ben:2018-01-16>וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
 {{:cdc:30-5.jpg?200|}} \\
-<todo @prod>וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
+<todo @prod #ben:2018-01-16>וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
 {{:cdc:30-6.jpg?200|}} \\
-<todo @prod>וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין)</todo> \\
+<todo @prod #ben:2018-01-16>וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין)</todo> \\
 {{:cdc:30-7.jpg?200|}} \\
-<todo @prod>וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט</todo> \\
-<todo @prod> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
+<todo @prod #ben:2018-01-16>וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט</todo> \\
+<todo @prod #ben:2018-01-16> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
 {{:cdc:up.jpg?200|}}\\
-<todo @prod>וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap.
+<todo @prod #ben:2018-01-16>וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap.
 וודא בכל זרוע חיווט 4 tie wrap  ישרים ומורכבים בכיוון הנכון. 
 וודא שעל המשולש מפלסטיק מורכב tie wrap ישר בכיוון הנכון.
 וודא על הברקט מורכב סקוטש 
@@ -262,7 +262,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 </form>
 </WRAP>
 </hidden>
-<pagemod sys30_issue_cell output_before> **@@Status@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** **by** **<color #22b14c>Ben</color>**  **at** **2018-01-16 11:00** \\ <pagemod sys30_issue_cell output_before> **@@Status@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS35-QC ======
 <hidden>
 <todo @qc>וודא חתימת QC2 במסמך U Utility drawer  Final Visual Inspection1.</todo> \\
@@ -444,23 +444,23 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 {{:cdc:20-11.jpg?200|}} \\
 <todo @prod>בדוק שכל הכרטיסים המורכבים במגירה מורכבים ישר ולא עקומים </todo> \\
 <todo @prod>וודא מדבקות דיסקים לוקאלים נקיים ומודבקים ישר בתוך האמבטיה  </todo> \\
-<todo @prod>וודא שכל הדיסקים הלוקליים בעלי אותו המק"ט </todo> \\
+<todo @prod #ben:2018-01-16>וודא שכל הדיסקים הלוקליים בעלי אותו המק"ט </todo> \\
 {{:cdc:20-14.jpg?200|}} \\
 <todo @prod>וודא הרכבת מסילות של NODE  במידה וקיימים על פי הוראות עבודה מסמך WI101036 </todo> \\
 <todo @prod>הדבק מדבקות SN (IBOXxxxx) </todo> \\
-<todo @prod>וודא הרכבת את שלושת ה-NODE על פי הוראות במסמך WI101037 </todo> \\
+<todo @prod #ben:2018-01-16>וודא הרכבת את שלושת ה-NODE על פי הוראות במסמך WI101037 </todo> \\
 <todo @prod>הרכב SSD בהתאם למצוין ב-Hard card </todo> \\
-<todo @prod>הרכב PDU בהתאם למצוין ב-Hard card
+<todo @prod #ben:2018-01-16>הרכב PDU בהתאם למצוין ב-Hard card
 את דו"ח הבדיקה הצמד לחלקו הקידמי של ה-PDU בתוך שקית ניילון קטנה(של הכבל שמגיע עם ה-PDU)
  </todo> \\
 {{:cdc:pdu-5.jpg?200|}}\\
-<todo @prod>הדבק מדבקות זיהוי למכשירי NODE</todo> \\
+<todo @prod #ben:2018-01-16>הדבק מדבקות זיהוי למכשירי NODE</todo> \\
 <todo @prod>הדבק מדבקות זיהוי למכשירי PDU</todo> \\
-<todo @prod>הדבק מדבקת כבל של ה-PDU# 5 ס"מ מהקונקטור</todo> \\
+<todo @prod #ben:2018-01-16>הדבק מדבקת כבל של ה-PDU# 5 ס"מ מהקונקטור</todo> \\
 
-<todo @prod>יש לאסוף את הבנדלים הבאים </todo> \\
+<todo @prod #ben:2018-01-16>יש לאסוף את הבנדלים הבאים </todo> \\
 {{:cdc:30-22.jpg?200|}}\\
-<todo @prod>וודא ניתוב נכון של הכבל לעומת המדבקה-שורה עליונה מתחברת למכשיר </todo> \\
+<todo @prod #ben:2018-01-16>וודא ניתוב נכון של הכבל לעומת המדבקה-שורה עליונה מתחברת למכשיר </todo> \\
 <todo @prod>חבר כבלי הארקה ל-PDU לנק' הארקה ראשיות בכל צד</todo> \\
 <todo @prod>חבר כבלי מתח של ה-ENC ל-PDU </todo> \\
 <todo @prod>הדבר מדבקת ניתוב ע"ג כבלי המתח של ה-1U בהתאם לסוג ארון וחבר ל-PDU</todo> \\
@@ -479,7 +479,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 {{:cdc:30-16.jpg?200|}} \\
 <todo @prod>חווט כבלי IB</todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
+<todo #kobi @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
 <todo>.</todo> \\
 <WRAP 300px bggrey >
 <form> 

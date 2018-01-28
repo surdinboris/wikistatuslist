@@ -256,7 +256,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 {{:cdc:30-16.jpg?200|}} \\
 <todo @prod>חווט כבלי IB</todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
+<todo #kobi @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
 <do>sys30-wiring:</do> \\
 </hidden>
 ====== SYS40 Hi Pot Test======

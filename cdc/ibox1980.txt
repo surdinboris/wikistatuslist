@@ -26,7 +26,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 ====== SYS10 Rack Assembly ======
 <hidden>
 **SYS10** \\
-<todo @prod #ramin:2018-01-15> הצמד מגנטים לארון להגנה על שריטות </todo> \\
+<todo @prod #julius:2018-01-17> הצמד מגנטים לארון להגנה על שריטות </todo> \\
 <todo @prod #ramin:2018-01-15> פרק גג עליון </todo> \\
 <todo @prod #ramin:2018-01-15> וודא חיזוק גלגלים לארון על פי הוראות עבודה מסמך WI101036 </todo> \\
 <todo @prod #ramin:2018-01-15> וודא הרכבה קיט חיזוק על פי הוראות עבודה מסמך WI101036 </todo> \\
@@ -94,13 +94,13 @@ submit  "SUBMIT"
  **Done** ** **  **by** **<color #22b14c>Rami nir</color>**  **at** **2018-01-15 16:44**  \\ <pagemod sys10_issue_cell output_before> **@@Status@@** **@@Free text area@@**  **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@**  \\ </pagemod>
 ====== SYS20 Generic ======
 <hidden>
-<todo @prod> פתח מסילות ENC ובדוק </todo> \\
+<todo @prod #avivw:2018-01-16> פתח מסילות ENC ובדוק </todo> \\
 שכל הגולות קיימות ולא נופלות \\
-<todo @prod> וודא מדבקת UL מודבקת על כל מגירת ENC </todo> \\
+<todo @prod #avivw:2018-01-16> וודא מדבקת UL מודבקת על כל מגירת ENC </todo> \\
 {{:cdc:20-1.jpg?nolink&200|}} \\
-<todo @prod> בדוק קיום מדבקה צהובה מתחת ל-PSU שמאלי </todo> \\
+<todo @prod #avivw:2018-01-16> בדוק קיום מדבקה צהובה מתחת ל-PSU שמאלי </todo> \\
 {{:cdc:20-2.jpg?nolink&200|}} \\
-<todo @prod> פתח מכסה עליון של המגירה ובדוק: </todo> \\
+<todo @prod #avivw:2018-01-16> פתח מכסה עליון של המגירה ובדוק: </todo> \\
 1.מכסים עליונים נפתחים ונסגרים כראוי. \\
 2.ידיות מכסה שחורות לא משוחררות. \\
 3.צירי המכסה תקינים. \\
@@ -108,29 +108,29 @@ submit  "SUBMIT"
 5.קונקטורים של הדיסקים שלמים. \\
 6.קיום מדבקה מטריצה מיקום דיסק על מכסה ימני \\
 {{:cdc:20-3.jpg?nolink&200|}} \\
-<todo @prod> הרכב מגירות  Enclosure והכנס לארון עלפי הוראות במסמך WI101037 </todo> \\
-<todo @prod> סמן על גביי שני המכסים של כל יחידות ה-ENC "X" (על גביי הניילון הנצמד) </todo> \\
+<todo @prod #avivw:2018-01-16> הרכב מגירות  Enclosure והכנס לארון עלפי הוראות במסמך WI101037 </todo> \\
+<todo @prod #avivw:2018-01-16> סמן על גביי שני המכסים של כל יחידות ה-ENC "X" (על גביי הניילון הנצמד) </todo> \\
 {{:cdc:20-8.jpg?nolink&200|}} \\
-<todo @prod> וודא הדבקת מדבקות זיהוי למכשירים: </todo> \\
+<todo @prod #avivw:2018-01-16> וודא הדבקת מדבקות זיהוי למכשירים: </todo> \\
 ENC # A \\
 ENC # B \\
 {{:cdc:pic015-01.jpg?200|}} \\
-<todo @prod> וודא קיום מדבקת סמל של אינפינידאט בחזית כל ENC וכיוון מדבקה עם "זנב" למטה כך </todo> \\
+<todo @prod #avivw:2018-01-16> וודא קיום מדבקת סמל של אינפינידאט בחזית כל ENC וכיוון מדבקה עם "זנב" למטה כך </todo> \\
 {{:cdc:20-9.jpg?nolink&200|}} \\
-<todo @prod> וודא בכל ENC קיום נוריות Pipe-Lite בחזית ושהן ממוקמות במקומן </todo> \\
+<todo @prod #avivw:2018-01-16> וודא בכל ENC קיום נוריות Pipe-Lite בחזית ושהן ממוקמות במקומן </todo> \\
 {{:cdc:pic016.jpg?200|}} \\
-<todo @prod> וודא שהפנל לא משוחרר </todo> \\
-<todo @prod> וודא קיום מדבקת אזהרה </todo> \\
+<todo @prod #avivw:2018-01-16> וודא שהפנל לא משוחרר </todo> \\
+<todo @prod #avivw:2018-01-16> וודא קיום מדבקת אזהרה </todo> \\
 {{:cdc:20-10.jpg?nolink&200|}} \\
-<todo @prod> וודא ברגים סגורים בספקי כח של ה-ENC </todo> \\
+<todo @prod #avivw:2018-01-16> וודא ברגים סגורים בספקי כח של ה-ENC </todo> \\
 {{:cdc:pic020.jpg?200|}} \\
-<todo @prod> וודא ברגים סגורים במודול I/O של ה-ENC </todo> \\
+<todo @prod #avivw:2018-01-16> וודא ברגים סגורים במודול I/O של ה-ENC </todo> \\
 {{:cdc:pic021.jpg?200|}} \\
-<todo @prod> וודא מדבקות זיהוי ע"ג כל ה-ENC A </todo>
+<todo @prod #avivw:2018-01-16> וודא מדבקות זיהוי ע"ג כל ה-ENC A </todo>
  כיתוב נכון \\
  לא מתקלפות \\
  מודבקות ישר \\
-<todo @prod> וודא מדבקות זיהוי ע"ג כל ה- ENC B </todo>
+<todo @prod #avivw:2018-01-16> וודא מדבקות זיהוי ע"ג כל ה- ENC B </todo>
  כיתוב נכון \\
  לא מתקלפות \\
  מודבקות ישר \\
@@ -175,17 +175,17 @@ submit  "SUBMIT"
 </form>
 </WRAP>
 </hidden>
-<pagemod sys20_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Aviv</color>**  **at** **2018-01-16 14:17** \\ <pagemod sys20_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30 Generic ======
 <hidden>
-<todo @prod> יש לאסוף את הבנדלים הבאים מטה </todo> \\
+<todo @prod #gavriel:2018-01-17> יש לאסוף את הבנדלים הבאים מטה </todo> \\
 \\
 **עבור F6** \\
 \\
 {{:cdc:30-23.jpg?200|}} \\
 \\
 **לחץ ורשום כאן את מספר העובד של מי שהרכיב את הזרוע בסדר עולה כמו שכתוב בטבלה** \\
-<pagemod f6_issue_cell output_before> **@@ENC@@** **done by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **ENC1/2-A** **done by** **<color #22b14c>Gavriel</color>**  **at** **2018-01-17 08:34** \\ <pagemod f6_issue_cell output_before> **@@ENC@@** **done by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 <WRAP 300px bggrey >
 <form> 
 action pagemod [[cdc:ibox1980]] f6_issue_cell
@@ -218,25 +218,25 @@ select  "ENC" "|ENC1/2-A|ENC1/2-B"
 submit  "SUBMIT" 
 </form> 
 </WRAP> \\
-<todo @prod> וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון </todo> \\
-<todo @prod> הרכב צמות וחבר את הכבלים למגירה ENC*-A </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון </todo> \\
+<todo @prod #gavriel:2018-01-17> הרכב צמות וחבר את הכבלים למגירה ENC*-A </todo> \\
 {{:cdc:30-1.jpg?200|}} \\
-<todo @prod> הרכב צמות וחבר את הכבלים למגירה ENC*-B </todo> \\
+<todo @prod #gavriel:2018-01-17> הרכב צמות וחבר את הכבלים למגירה ENC*-B </todo> \\
 {{:cdc:30-2.jpg?200|}} \\
-<todo @prod> חווט את הצמות לתעלת חיווט </todo> \\
+<todo @prod #gavriel:2018-01-17> חווט את הצמות לתעלת חיווט </todo> \\
 {{:cdc:30-3.jpg?200|}} \\
-<todo @prod> בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar </todo> \\
+<todo @prod #gavriel:2018-01-17> בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar </todo> \\
 {{:cdc:30-4.jpg?200|}} \\
-<todo @prod> וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
 {{:cdc:30-5.jpg?200|}} \\
-<todo @prod> וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
 {{:cdc:30-6.jpg?200|}} \\
-<todo @prod> וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין) </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין) </todo> \\
 {{:cdc:30-7.jpg?200|}} \\
-<todo @prod> וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט </todo> \\
-<todo @prod> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
+<todo @prod #gavriel:2018-01-17> וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
 {{:cdc:up.jpg?200|}} \\
-<todo @prod> וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap </todo>
+<todo @prod #gavriel:2018-01-17> וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap </todo>
 וודא בכל זרוע חיווט 4 tie wrap  ישרים ומורכבים בכיוון הנכון \\
 וודא שעל המשולש מפלסטיק מורכב tie wrap ישר בכיוון הנכון \\
 וודא על הברקט מורכב סקוטש \\
@@ -411,45 +411,45 @@ submit  "SUBMIT"
 <pagemod sys35_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30-Custom ======
 <hidden>
-<todo @prod>בדוק קיום מק"ט על ה-NODE תואם את המצויין ב-Hard Card </todo> \\
+<todo @prod #gavriel:2018-01-17>בדוק קיום מק"ט על ה-NODE תואם את המצויין ב-Hard Card </todo> \\
 אם לא ניתן לזהות את המק"ט יש לקרוא למנהל ייצור \\
 {{:cdc:20-11.jpg?200|}} \\
-<todo @prod> בדוק שכל הכרטיסים המורכבים במגירה מורכבים ישר ולא עקומים </todo> \\
-<todo @prod> וודא מדבקות דיסקים לוקאלים נקיים ומודבקים ישר בתוך האמבטיה </todo> \\
-<todo @prod> וודא שכל הדיסקים הלוקליים בעלי אותו המק"ט </todo> \\
+<todo @prod #gavriel:2018-01-17> בדוק שכל הכרטיסים המורכבים במגירה מורכבים ישר ולא עקומים </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא מדבקות דיסקים לוקאלים נקיים ומודבקים ישר בתוך האמבטיה </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא שכל הדיסקים הלוקליים בעלי אותו המק"ט </todo> \\
 {{:cdc:20-14.jpg?200|}} \\
-<todo @prod> וודא הרכבת מסילות של NODE במידה וקיימים על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod> הדבק מדבקות SN (IBOXxxxx) </todo> \\
-<todo @prod> וודא הרכבת את שלושת ה-NODE על פי הוראות במסמך WI101037 </todo> \\
-<todo @prod> הרכב SSD בהתאם למצוין ב-Hard card </todo> \\
-<todo @prod> הרכב PDU בהתאם למצוין ב-Hard card </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא הרכבת מסילות של NODE במידה וקיימים על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod #gavriel:2018-01-17> הדבק מדבקות SN (IBOXxxxx) </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא הרכבת את שלושת ה-NODE על פי הוראות במסמך WI101037 </todo> \\
+<todo @prod #gavriel:2018-01-17> הרכב SSD בהתאם למצוין ב-Hard card </todo> \\
+<todo @prod #gavriel:2018-01-17> הרכב PDU בהתאם למצוין ב-Hard card </todo> \\
 את דו"ח הבדיקה הצמד לחלקו הקידמי של ה-PDU בתוך שקית ניילון קטנה(של הכבל שמגיע עם ה-PDU) \\
 {{:cdc:pdu-5.jpg?200|}} \\
-<todo @prod> הדבק מדבקות זיהוי למכשירי NODE </todo> \\
-<todo @prod> הדבק מדבקות זיהוי למכשירי PDU </todo> \\
-<todo @prod> הדבק מדבקת כבל של ה-PDU# 5 ס"מ מהקונקטור </todo> \\
-<todo @prod> יש לאסוף את הבנדלים הבאים </todo> \\
+<todo @prod #gavriel:2018-01-17> הדבק מדבקות זיהוי למכשירי NODE </todo> \\
+<todo @prod #gavriel:2018-01-17> הדבק מדבקות זיהוי למכשירי PDU </todo> \\
+<todo @prod #gavriel:2018-01-17> הדבק מדבקת כבל של ה-PDU# 5 ס"מ מהקונקטור </todo> \\
+<todo @prod #gavriel:2018-01-17> יש לאסוף את הבנדלים הבאים </todo> \\
 {{:cdc:30-22.jpg?200|}} \\
-<todo @prod> וודא ניתוב נכון של הכבל לעומת המדבקה-שורה עליונה מתחברת למכשיר </todo> \\
-<todo @prod> חבר כבלי הארקה ל-PDU לנק' הארקה ראשיות בכל צד </todo> \\
-<todo @prod> חבר כבלי מתח של ה-ENC ל-PDU </todo> \\
-<todo @prod> הדבר מדבקת ניתוב ע"ג כבלי המתח של ה-1U בהתאם לסוג ארון וחבר ל-PDU </todo> \\
-<todo @prod> חווט כבלי מתח מ- 1U ל- BBU</todo> \\
+<todo @prod #gavriel:2018-01-17> וודא ניתוב נכון של הכבל לעומת המדבקה-שורה עליונה מתחברת למכשיר </todo> \\
+<todo @prod #gavriel:2018-01-17> חבר כבלי הארקה ל-PDU לנק' הארקה ראשיות בכל צד </todo> \\
+<todo @prod #gavriel:2018-01-17> חבר כבלי מתח של ה-ENC ל-PDU </todo> \\
+<todo @prod #gavriel:2018-01-17> הדבר מדבקת ניתוב ע"ג כבלי המתח של ה-1U בהתאם לסוג ארון וחבר ל-PDU </todo> \\
+<todo @prod #gavriel:2018-01-17> חווט כבלי מתח מ- 1U ל- BBU</todo> \\
 {{:cdc:20-16.jpg?200|}} \\
-<todo @prod> חווט כבלי מתח מ-BBU ל-NODE </todo> \\
+<todo @prod #gavriel:2018-01-17> חווט כבלי מתח מ-BBU ל-NODE </todo> \\
 {{:cdc:30-9.jpg?200|}} \\
 {{:cdc:30-10.jpg?200|}} \\
-<todo @prod> חווט כבלי רשת של SW </todo> \\
+<todo @prod #gavriel:2018-01-17> חווט כבלי רשת של SW </todo> \\
 {{:cdc:30-11.jpg?200|}} \\
 {{:cdc:30-12.jpg?200|}} \\
 {{:cdc:30-13.jpg?200|}} \\
 {{:cdc:30-14.jpg?200|}} \\
-<todo @prod> חווט כבלי USB </todo> \\
+<todo @prod #gavriel:2018-01-17> חווט כבלי USB </todo> \\
 {{:cdc:30-15.jpg?200|}} \\
 {{:cdc:30-16.jpg?200|}} \\
-<todo @prod> חווט כבלי IB </todo> \\
+<todo @prod #gavriel:2018-01-17> חווט כבלי IB </todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod> כוון מגירת 1U לפתיחה וסגירה חלקה. </todo> \\
+<todo @prod #kobi:2018-01-17> כוון מגירת 1U לפתיחה וסגירה חלקה. </todo> \\
 <WRAP 300px bggrey >
 <form>
 action pagemod [[cdc:ibox1980]] sys30c_issue_cell
@@ -463,23 +463,23 @@ submit  "SUBMIT"
 ====== SYS40 Hi Pot Test======
 <hidden>
 **Check** \\
-<todo @prod> וודא חיבורי מתח מהודקים לכל המכלולים. </todo> \\
-<todo @prod> וודא שמפסקים בכל אחד מה-PDU במצב "ON" </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא חיבורי מתח מהודקים לכל המכלולים. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא שמפסקים בכל אחד מה-PDU במצב "ON" </todo> \\
 {{:cdc:pic025.jpg?200|}} \\
-<todo @prod> וודא שמפסקים בכל אחד מה-ENC במצב "1" </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא שמפסקים בכל אחד מה-ENC במצב "1" </todo> \\
 {{:cdc:pic026.jpg?200|}} \\
-<todo @prod> וודא שבוצעה בדיקת כיול יומית למכשיר </todo>
+<todo @prod #gavriel:2018-01-17> וודא שבוצעה בדיקת כיול יומית למכשיר </todo>
 במידה ולא בוצעה בדיקת כיול יומית יש לבצע בדיקה על-פי מסמך AI000401 \\
 **Do** \\
-<todo @prod> שים לב- טרם תחילת הבדיקה ומהלכה יש לבודד באופן סטרילי את הארון, ואסורה הכניסה למתחם הבדיקה לעובדים שאינם מורשים מחשש להתחשמלות ופגיעה גופנית.</todo> \\
-<todo @prod> חבר כבל מתאם Hi-Pot</todo> \\
-<todo @prod> חבר מעקף ליחידות ה-BBU. </todo> \\
-<todo @prod> חבר כבל מתאם Hi-Pot  אדום\כחול (מק"ט (TAS-921-00014) </todo> \\
+<todo @prod #gavriel:2018-01-17> שים לב- טרם תחילת הבדיקה ומהלכה יש לבודד באופן סטרילי את הארון, ואסורה הכניסה למתחם הבדיקה לעובדים שאינם מורשים מחשש להתחשמלות ופגיעה גופנית.</todo> \\
+<todo @prod #gavriel:2018-01-17> חבר כבל מתאם Hi-Pot</todo> \\
+<todo @prod #gavriel:2018-01-17> חבר מעקף ליחידות ה-BBU. </todo> \\
+<todo @prod #gavriel:2018-01-17> חבר כבל מתאם Hi-Pot  אדום\כחול (מק"ט (TAS-921-00014) </todo> \\
 יציאות ה-PDU לכל אחד מהצרכנים המתחברים ל-PDU הנבדק \\
-<todo @prod> כייל מכשיר Hi-Pot לתוכנית בדיקה 01. </todo> \\
-<todo @prod> רשום את תוצאות הבדיקה עבור כל PDU וחזור על הבדיקה על כל ה-PDU הקיימים במכונה. </todo> \\
+<todo @prod #gavriel:2018-01-17> כייל מכשיר Hi-Pot לתוכנית בדיקה 01. </todo> \\
+<todo @prod #gavriel:2018-01-17> רשום את תוצאות הבדיקה עבור כל PDU וחזור על הבדיקה על כל ה-PDU הקיימים במכונה. </todo> \\
 **הערה: במידה והבדיקה נכשלה יש לקרוא להנדסה לביצוע FA מיידי.** \\
-<pagemod pdu_issue_cell output_before> **@@PDU@@** **value is** <color #22b14c>@@Value is@@</color>  **recorded by @@meta.user.name@@ ** **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **PDU-2** **value is** <color #22b14c>57.7</color>  **recorded by Gavriel ** **at** **2018-01-17 13:06** \\  **PDU-1** **value is** <color #22b14c> 59.7</color>  **recorded by Gavriel ** **at** **2018-01-17 13:07** \\  **PDU-1** **value is** <color #22b14c> 59.7</color>  **recorded by Gavriel ** **at** **2018-01-17 13:09** \\ <pagemod pdu_issue_cell output_before> **@@PDU@@** **value is** <color #22b14c>@@Value is@@</color>  **recorded by @@meta.user.name@@ ** **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 <WRAP 300px bggrey >
 <form> 
 action pagemod [[cdc:ibox1980]] pdu_issue_cell
@@ -488,15 +488,15 @@ textbox "Value is" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
-<todo @prod> נתק מעקף </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> נתק מעקף </todo> \\
 חבר את כבלי המתח בכניסה וביציאה של ה-BBU \\
 סגור נועל של כבלי יציאה מה-BBU בתוספת דסקה פלסטיק מק"ט \\
 TAS-175-00022. \\
 {{:cdc:30-18.jpg?200|}} \\
-<todo @prod>נתק כבל מתאם Hi-Pot  אדום\כחול </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17>נתק כבל מתאם Hi-Pot  אדום\כחול </todo> \\
 בין יציאות ה-PDU לכל אחד מהצרכנים המתחברים ל-PDU הנבדק \\
-<todo @prod> חבר כבלי מתח של המערכת ל-PDU </todo> \\
-<todo @prod> העבר מפסקים של כל ה-ENC למצב "0" </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> חבר כבלי מתח של המערכת ל-PDU </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> העבר מפסקים של כל ה-ENC למצב "0" </todo> \\
 {{:cdc:pic020.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form> 
@@ -510,87 +510,87 @@ submit  "SUBMIT"
 <pagemod hipot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== Wiring post Hi Pot Test ======
 <hidden>
-<todo @prod> הרכב Patch Panel-וודא מדבקת PASS QC ע"ג ה-PP. </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> הרכב Patch Panel-וודא מדבקת PASS QC ע"ג ה-PP. </todo> \\
 **בדיקה סופית** \\
-<todo @prod> בדוק עפ"י מסמך ICD התואם לתצורת המערכת : </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> בדוק עפ"י מסמך ICD התואם לתצורת המערכת : </todo> \\
 חיבוריות כבילה \\
 כיוון מדבקות \\
-<todo @prod> לחץ על כל הקונקטורים בפנל ווודא קונקטורים LAN ב-PP מקובעים כראוי נעולים ולא זזים. </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> לחץ על כל הקונקטורים בפנל ווודא קונקטורים LAN ב-PP מקובעים כראוי נעולים ולא זזים. </todo> \\
 {{:cdc:40-1.jpg?200|}} \\
-<todo @prod> וודא שבכל כניסות ה-FC ב-PP ישנם מכסי אופטי לבנים. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא שבכל כניסות ה-FC ב-PP ישנם מכסי אופטי לבנים. </todo> \\
 {{:cdc:40-2.jpg?200|}} \\
-<todo @prod> וודא כניסות 11,12(בשלושת ה-NODE) עם כיסוי מתאים(Copper או Optic). </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> וודא כניסות 11,12(בשלושת ה-NODE) עם כיסוי מתאים(Copper או Optic). </todo> \\
 {{:cdc:pic027.jpg?200|}} \\
-<todo @prod> וודא ברגים של PP סגורים היטב בעזרת מברג. </todo> \\
-<todo @prod> בדוק חיווט PP בהתאם לסוג הפנל </todo> \\
-<todo @prod> וודא קשתות אחידות </todo> \\
-<todo @prod> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ </todo> \\
-<todo @prod> וודא סקוטש ביציאת הכבילה מה-PP המגן מפני הפנל. </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> וודא ברגים של PP סגורים היטב בעזרת מברג. </todo> \\
+<todo @prod #gavriel:2018-01-17> בדוק חיווט PP בהתאם לסוג הפנל </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא קשתות אחידות </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ </todo> \\
+<todo @prod #gavriel:2018-01-17 #gavriel:2018-01-17> וודא סקוטש ביציאת הכבילה מה-PP המגן מפני הפנל. </todo> \\
 {{:cdc:40-3.jpg?400|}} \\
 **וודא כבלי ספייר (1G/10G) של ה-NODE מחווטים לדופן הצדדי של הארון עם כיסוי פצפץ-R720 בלבד!** \\
-<todo @prod> SW וודא קשתות אחידות.וודא כבלי רשת לא שבורים(ללא קמטים) ורדיוס כיפוף 75 מ"מ. </todo> \\
+<todo @prod #gavriel:2018-01-17> SW וודא קשתות אחידות.וודא כבלי רשת לא שבורים(ללא קמטים) ורדיוס כיפוף 75 מ"מ. </todo> \\
 **BBU** \\
-<todo @prod> וודא בכל BBU כבל LAN מחובר לפורט השמאלי </todo> \\
-<todo @prod> וודא כרטיס מחובר ישר ובעזרת שתי ברגים </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא בכל BBU כבל LAN מחובר לפורט השמאלי </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כרטיס מחובר ישר ובעזרת שתי ברגים </todo> \\
 {{:cdc:40-5.jpg?200|}} \\
-<todo @prod> וודא בכל BBU מגש נעילת כבלי מתח מורכב בעזרת שתי ברגים ומחוזק. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא בכל BBU מגש נעילת כבלי מתח מורכב בעזרת שתי ברגים ומחוזק. </todo> \\
 {{:cdc:40-6.jpg?200|}} \\
-<todo @prod> וודא בכל BBU שה-JUMPER מחובר כראוי </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא בכל BBU שה-JUMPER מחובר כראוי </todo> \\
 {{:cdc:new_jumper.jpg?nolink&200|}} \\
-<todo @prod> וודא כבלי מתח עוברים מעל ה-PP </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כבלי מתח עוברים מעל ה-PP </todo> \\
 {{:cdc:pic029.jpg?200|}} \\
-<todo @prod> וודא כבלי USB ורשת  עוברים מתחת ה-PP ואינם מחוווטים עם כבלי POWER. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כבלי USB ורשת  עוברים מתחת ה-PP ואינם מחוווטים עם כבלי POWER. </todo> \\
 **PDU** \\
-<todo @prod> וודא ע"י משיכה שכל כבלי POWER המחוברים ל-PDU נעולים ואינם ניתקים מה-PDU. </todo> \\
-<todo @prod> וודא קיום מדבקת זיהוי לבנה על גבי כל אחד מה-PDU בהתאם לתצורה. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא ע"י משיכה שכל כבלי POWER המחוברים ל-PDU נעולים ואינם ניתקים מה-PDU. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא קיום מדבקת זיהוי לבנה על גבי כל אחד מה-PDU בהתאם לתצורה. </todo> \\
 {{:cdc:pic031.jpg?200|}} \\
-<todo @prod> וודא חיבור כבלי ארקה בין ה-PDU לנקודת ארקה בארון </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא חיבור כבלי ארקה בין ה-PDU לנקודת ארקה בארון </todo> \\
 {{:cdc:40-8.jpg?200|}} \\
-<todo @prod> וודא מק"טים אחידים של ה-PDU מול ההרכבה </todo> \\
-<todo @prod> וודא קשתות אחידות בחיווט כבלי המתח ל-PDU. </todo> \\
-<todo @prod> וודא כבלי רשת לא שבורים (ללא קמטים). </todo> \\
-<todo @prod> וודא חיבור כבל רשת לפורט השמאלי ב-PDU. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא מק"טים אחידים של ה-PDU מול ההרכבה </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא קשתות אחידות בחיווט כבלי המתח ל-PDU. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כבלי רשת לא שבורים (ללא קמטים). </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא חיבור כבל רשת לפורט השמאלי ב-PDU. </todo> \\
 {{:cdc:40-9.jpg?200|}} \\
 **NODE** \\
-<todo @prod> וודא כבל USB מחובר לפורט העליון ומחווט יחד עם הצמה ושלא מתוח </todo> \\
-<todo @prod> וודא שצמת כבלי הרשת (ירוק) ל NODE3  ולא נוגעת ב- ENC1 </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כבל USB מחובר לפורט העליון ומחווט יחד עם הצמה ושלא מתוח </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא שצמת כבלי הרשת (ירוק) ל NODE3  ולא נוגעת ב- ENC1 </todo> \\
 {{:cdc:pic032.jpg?200|}} \\
-<todo @prod> NODE-וודא כבלי מתח נצורים בעזרת חווק. </todo> \\
+<todo @prod #gavriel:2018-01-17> NODE-וודא כבלי מתח נצורים בעזרת חווק. </todo> \\
 {{:cdc:pic033.jpg?200|}} \\
-<todo @prod> וודא קשתות אחידות </todo> \\
-<todo @prod> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ. </todo> \\
-<todo @prod> וודא מדבקות זיהוי לבנות(ע"ג המכשיר) בהתאם למספור המכשיר, קיימות, ישרות ואינן מתקלפות. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא קשתות אחידות </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא מדבקות זיהוי לבנות(ע"ג המכשיר) בהתאם למספור המכשיר, קיימות, ישרות ואינן מתקלפות. </todo> \\
 {{:cdc:pic034.jpg?200|}} \\
-<todo @prod> וודא מדבקות זיהוי לבנות(ע"ג המסילה) הימנית ישרות, ואינן מתקלפות בהתאם למספור המכשיר. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא מדבקות זיהוי לבנות(ע"ג המסילה) הימנית ישרות, ואינן מתקלפות בהתאם למספור המכשיר. </todo> \\
 {{:cdc:pic035.jpg?200|}} \\
-<todo @prod> וודא מדבקת "INFINIDAT" אובלית בחזית כל NODE ללא פגיעות צבע, ישרה ומותאמת לבסיס האובלי של הפנל. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא מדבקת "INFINIDAT" אובלית בחזית כל NODE ללא פגיעות צבע, ישרה ומותאמת לבסיס האובלי של הפנל. </todo> \\
 {{:cdc:pic037.jpg?200|}} \\
-<todo @prod> וודא פנל שלם ללא פגיעות. </todo> \\
-<todo @prod> R730-וודא מפתח נעילה קיים בפנל בחלק הפנימי. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא פנל שלם ללא פגיעות. </todo> \\
+<todo @prod #gavriel:2018-01-17> R730-וודא מפתח נעילה קיים בפנל בחלק הפנימי. </todo> \\
 {{:cdc:pic038.jpg?200|}} \\
 **R720-וודא מפתח נעילה של כל הפנלים הוסר מהמכסה ואינו קיים.** \\
 {{:cdc:pic039.jpg?200|}} \\
-<todo @prod> וודא ברגים קדמיים סגורים. </todo> \\
-<todo @prod> וודא פנל הפעלה ומחברים שלמים תקינים. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא ברגים קדמיים סגורים. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא פנל הפעלה ומחברים שלמים תקינים. </todo> \\
 {{:cdc:pic040.jpg?200|}} \\
-<todo @prod> וודא 8 דיסקים לוקאלים שלא מורכבים עליהם CAGE פלסטיק. </todo> \\
-<todo @prod> הוצא את הדיסק החוצה-וודא דיסקים לוקאלים בכל ה-NODE זהים עם אותה סיומת 0007 או 0088. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא 8 דיסקים לוקאלים שלא מורכבים עליהם CAGE פלסטיק. </todo> \\
+<todo @prod #gavriel:2018-01-17> הוצא את הדיסק החוצה-וודא דיסקים לוקאלים בכל ה-NODE זהים עם אותה סיומת 0007 או 0088. </todo> \\
 {{:cdc:40-10.jpg?200|}} \\
-<todo @prod> בהחזרת הדיסק וודא נועל דיסק תקין ונעילה של הדיסקים. </todo> \\
-<todo @prod> וודא מדבקות של הדיסקים מודבקים בתוך המסגרת ישרים,נקיים ואינם מתקלפים. </todo> \\
-<todo @prod> הוצא את הכיסויים של פתחי ה-SSD/HDD וודא שהם שלמים ללא פגיעות פלסטיקה ועיוותים. </todo> \\
+<todo @prod #gavriel:2018-01-17> בהחזרת הדיסק וודא נועל דיסק תקין ונעילה של הדיסקים. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא מדבקות של הדיסקים מודבקים בתוך המסגרת ישרים,נקיים ואינם מתקלפים. </todo> \\
+<todo @prod #gavriel:2018-01-17> הוצא את הכיסויים של פתחי ה-SSD/HDD וודא שהם שלמים ללא פגיעות פלסטיקה ועיוותים. </todo> \\
 **R720-וודא קיום מדבקות מספור HDD 1-16.** \\
-<todo @prod> R730-וודא קיום מדבקות מספור HDD 1-24. </todo> \\
+<todo @prod #gavriel:2018-01-17> R730-וודא קיום מדבקות מספור HDD 1-24. </todo> \\
 {{:cdc:pic042.jpg?200|}} \\
 **ENC** \\
-<todo @prod> וודא כל הכבלים מחוברים ומאובטחים, אינם רופפים ואין להם שום מגע עם המודול שמתחתם. </todo>
+<todo @prod #gavriel:2018-01-17> וודא כל הכבלים מחוברים ומאובטחים, אינם רופפים ואין להם שום מגע עם המודול שמתחתם. </todo>
 וודא כל כבלי המתח מחוברים כראוי ע"י לחיצה פנימה של כל כבל מתח \\
 {{:cdc:40-4.jpg?200|}} \\
 משוך את המגירה החוצה עד סוף המהלך: \\
-<todo @prod> וודא בפתיחה וסגירה של המגירה תנועה חלקה של המסילות. </todo> \\
-<todo @prod> וודא ברגים המחברים בין זרוע חיווט למסילה סגורים ואין מרווח בין ראש הבורג לזרוע(בדיקה בעזרת מברג בולדוג). </todo> \\
-<todo @prod> כבלים נעים בחופשיות ללא מגע עם המסילה. </todo> \\
-<todo @prod> וודא כל המפסקים של המכשירים(2 מפסקים לכל ENC) נמצאים במצב "0". </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא בפתיחה וסגירה של המגירה תנועה חלקה של המסילות. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא ברגים המחברים בין זרוע חיווט למסילה סגורים ואין מרווח בין ראש הבורג לזרוע(בדיקה בעזרת מברג בולדוג). </todo> \\
+<todo @prod #gavriel:2018-01-17> כבלים נעים בחופשיות ללא מגע עם המסילה. </todo> \\
+<todo @prod #gavriel:2018-01-17> וודא כל המפסקים של המכשירים(2 מפסקים לכל ENC) נמצאים במצב "0". </todo> \\
 {{:cdc:pic020.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form> 
@@ -601,7 +601,7 @@ submit  "SUBMIT"
 </form>
 </WRAP>
 </hidden>
-<pagemod sys40hot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Gavriel</color>**  **at** **2018-01-17 13:20** \\ <pagemod sys40hot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS45 QC ======
 <hidden>
 <todo @qc> וודא מסמך Hard Card תואם את המכונה. </todo> \\
@@ -666,12 +666,12 @@ submit  "SUBMIT"
 <pagemod sys45qc_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS50 in IVT ======
 <hidden>
-<todo @ivt> הכנסה את המכונה לאינטגרציה </todo> \\
+<todo @ivt #keren:2018-01-21> הכנסה את המכונה לאינטגרציה </todo> \\
 **per** [[ http://10.148.38.142/wiki/doku.php?id=start | WiKi page]] \\
-<todo @prod> פתח 4 רגליות של הארון כלפי הרצפה </todo> \\
-<todo @prod> חבר ג'יג לד מק"ט IDT-921-00008 למכונה בכניסת LED. </todo> \\
-<todo @prod> הכנס דיסקים למכונה בהתאם ל-HC </todo> \\
-<todo @prod> פתח ברגים של 1U </todo> \\
+<todo @prod #keren:2018-01-21> פתח 4 רגליות של הארון כלפי הרצפה </todo> \\
+<todo @prod #keren:2018-01-21> חבר ג'יג לד מק"ט IDT-921-00008 למכונה בכניסת LED. </todo> \\
+<todo @prod #keren:2018-01-21> הכנס דיסקים למכונה בהתאם ל-HC </todo> \\
+<todo @prod #keren:2018-01-21> פתח ברגים של 1U </todo> \\
 <WRAP 300px bggrey >
 <form> 
 action pagemod [[cdc:ibox1980]] sys50_issue_cell

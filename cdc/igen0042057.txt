@@ -174,7 +174,7 @@ textbox "Free text area" "= "
 {{:cdc:pic018.jpg?200|}} \\
 <todo @prod>וודא מדבקות צד ENC ישרות ונקיות </todo> \\
 <todo @prod>וודא שכל הברגים סגורים ומהודקים לכל אורך הפרופילים</todo> \\
-<todo>.</todo> \\
+<todo #beng:2018-01-23>.</todo> \\
 <WRAP 300px bggrey >
 <form> 
  action pagemod [[cdc:igen0042057]] sys20_issue_cell
@@ -187,7 +187,7 @@ textbox "Free text area" "= "
 <pagemod sys20_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30 Generic ======
 <hidden>
-<todo @prod>יש לאסוף את הבנדלים הבאים מטה </todo> \\
+<todo @prod #beng:2018-01-23>יש לאסוף את הבנדלים הבאים מטה </todo> \\
 \\
 **עבור F6** \\
 \\
@@ -227,29 +227,29 @@ textbox "Free text area" "= "
  submit  "SUBMIT" 
 </form> 
 </WRAP> \\
-<todo @prod>וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון</todo> \\
-<todo @prod>הרכב צמות וחבר את הכבלים למגירה 
+<todo @prod #beng:2018-01-23>וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון</todo> \\
+<todo @prod #beng:2018-01-23>הרכב צמות וחבר את הכבלים למגירה 
 	ENC*-A
 	</todo> \\
 {{:cdc:30-1.jpg?200|}} \\
-<todo @prod>הרכב צמות וחבר את הכבלים למגירה 
+<todo @prod #beng:2018-01-23>הרכב צמות וחבר את הכבלים למגירה 
 	ENC*-B
 	</todo> \\
 {{:cdc:30-2.jpg?200|}} \\
-<todo @prod>חווט את הצמות לתעלת חיווט </todo> \\
+<todo @prod #beng:2018-01-23>חווט את הצמות לתעלת חיווט </todo> \\
 {{:cdc:30-3.jpg?200|}} \\
-<todo @prod>בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar</todo> \\
+<todo @prod #beng:2018-01-23>בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar</todo> \\
 {{:cdc:30-4.jpg?200|}} \\
-<todo @prod>וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
+<todo @prod #beng:2018-01-23>וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
 {{:cdc:30-5.jpg?200|}} \\
-<todo @prod>וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
+<todo @prod #beng:2018-01-23>וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
 {{:cdc:30-6.jpg?200|}} \\
-<todo @prod>וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין)</todo> \\
+<todo @prod #beng:2018-01-23>וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין)</todo> \\
 {{:cdc:30-7.jpg?200|}} \\
-<todo @prod>וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט</todo> \\
-<todo @prod> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
+<todo @prod #beng:2018-01-23>וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט</todo> \\
+<todo @prod #beng:2018-01-23> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
 {{:cdc:up.jpg?200|}}\\
-<todo @prod>וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap.
+<todo @prod #beng:2018-01-23>וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap.
 וודא בכל זרוע חיווט 4 tie wrap  ישרים ומורכבים בכיוון הנכון. 
 וודא שעל המשולש מפלסטיק מורכב tie wrap ישר בכיוון הנכון.
 וודא על הברקט מורכב סקוטש 
@@ -265,7 +265,7 @@ textbox "Free text area" "= "
 </form>
 </WRAP>
 </hidden>
-<pagemod sys30_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>ben gamabsh</color>**  **at** **2018-01-23 15:42** \\ <pagemod sys30_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS35-QC ======
 <hidden>
 <todo @qc>וודא חתימת QC2 במסמך U Utility drawer  Final Visual Inspection1.</todo> \\

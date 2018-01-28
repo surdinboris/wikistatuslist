@@ -479,7 +479,7 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 {{:cdc:30-16.jpg?200|}} \\
 <todo @prod>חווט כבלי IB</todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
+<todo @prod #kobi>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
 <todo>.</todo> \\
 <WRAP 300px bggrey >
 <form> 

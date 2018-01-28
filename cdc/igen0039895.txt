@@ -254,9 +254,9 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 <todo @prod>חווט כבלי USB</todo> \\
 {{:cdc:30-15.jpg?200|}} \\
 {{:cdc:30-16.jpg?200|}} \\
-<todo @prod>חווט כבלי IB</todo> \\
+<todo @prod #kobi:2018-01-17>חווט כבלי IB</todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
+<todo #kobi @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
 <do>sys30-wiring:</do> \\
 </hidden>
 ====== SYS40 Hi Pot Test======
@@ -1205,7 +1205,7 @@ R720 וודא מפתח נעילה הוסר מהמכסה בחלקו החיצונ�
 יד לבדיקת גובה שווה לכולם.
 </todo> \\
 <todo @qc_ r>וודא מדבקת אזהרה (צהובה) WARNNING  </todo> \\
-<todo @qc_ r></todo> \\
+<todo @qc_ r #kobi:2018-01-17></todo> \\
 {{:cdc:enc-1.jpg?nolink&200|}}\\
 <todo @prod_ r>וודא תקינות מכסה של ה-ENC (אחד בכל צד) כולל ידיות נעילה. 
 וודא שכל 60 הדיסקים במגרה יושבים בצורה תקינה ע"י העברת

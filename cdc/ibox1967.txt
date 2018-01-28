@@ -483,7 +483,7 @@ textbox "Free text area" "= "
 {{:cdc:30-16.jpg?200|}} \\
 <todo @prod>חווט כבלי IB</todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
+<todo #kobi @prod>כוון מגירת 1U לפתיחה וסגירה חלקה.</todo> \\
 <todo>.</todo> \\
 <WRAP 300px bggrey >
 <form> 

@@ -2,9 +2,9 @@
 ~~NOTOC~~
 <LTR>
 <WRAP DOWNLOAD>
- **HC rev.** **0**  **MACHINE PN:** **F6K** ** **  **igen0041172** // record added by // // Guy Mutzafi //  // at // 2018-01-16 09:02 -- // 1P// \\ <pagemod custom_issue_configuration output_before> **HC rev.** **@@HC rev@@**  **MACHINE PN:** **@@Machine PN@@** **@@Machine F@@**  **@@meta.page.name@@** // record added by // // @@meta.user.name@@ //  // at // @@meta.date.format.Y-m-d H:i@@ -- //@@Free text area (optional)@@// \\ </pagemod>
+ **HC rev.** **0**  **MACHINE PN:** **F4K** ** F4260-20141-C**  **ibox1991** // record added by // // Guy Mutzafi //  // at // 2018-01-22 16:22 -- // 1P--// \\ <pagemod custom_issue_configuration output_before> **HC rev.** **@@HC rev@@**  **MACHINE PN:** **@@Machine PN@@** **@@Machine F@@**  **@@meta.page.name@@** // record added by // // @@meta.user.name@@ //  // at // @@meta.date.format.Y-m-d H:i@@ -- //@@Free text area (optional)@@// \\ </pagemod>
 <form> 
-action pagemod [[cdc:igen0041172]] custom_issue_configuration
+action pagemod [[cdc:ibox1991]] custom_issue_configuration
 select  "HC rev" "|0|1|2|3|4|5|6|7|8|9|10|11|12|13"
 select "Machine PN" "|F1K|F2K|F4K|F6K|IBA"
 textbox "Machine F" "= "
@@ -16,8 +16,8 @@ textbox "Free text area (optional)" "= "
 <LTR>
 <pagemod custom_issue_cell output_before> **@@Station@@**  **for** **@@meta.page.name@@** <do>**@@Status@@ @@Free text area@@ **</do> // opened by @@meta.user.name@@// // at // // @@meta.date.format.Y-m-d H:i@@ //  \\ </pagemod>
 </LTR>
-=====CDC IGEN0041172=====
-cdc:igen0041172 created by guym 2018/01/16 09:02 \\
+=====CDC IBOX1991=====
+cdc:ibox1991 created by guym 2018/01/22 16:21 \\
 ===== e-Working Instruction=====
 <WRAP center round info 100%>
 The ecopy version of this document is FOR REFERENCE ONLY. It is the responsibility of the user to ensure the completeness of this document prior to use.
@@ -26,23 +26,23 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 ====== SYS10 Rack Assembly ======
 <hidden>
 **SYS10** \\
-<todo @prod #avivw:2018-01-24> הצמד מגנטים לארון להגנה על שריטות </todo> \\
-<todo @prod #avivw:2018-01-24> פרק גג עליון </todo> \\
-<todo @prod #avivw:2018-01-24> וודא חיזוק גלגלים לארון על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הרכבה קיט חיזוק על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הרכבה ברקטים של חיווט על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הדבקת מדבקות הארקה על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הדבקת מדבקות אזהרה מאחורי הארון על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הרכבת מסילות של Enclosure בהתאם למסמך Layout על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> כוון את המיקום של הפרופילים האחוריים (TIE-BAR) לפי ג'יג מסילת ENC </todo> \\
-<todo @prod #avivw:2018-01-24> פרק שני פקקיי פלסטיק מקדימה בקורה התחתונה. </todo> \\
+<todo @prod> הצמד מגנטים לארון להגנה על שריטות </todo> \\
+<todo @prod> פרק גג עליון </todo> \\
+<todo @prod> וודא חיזוק גלגלים לארון על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הרכבה קיט חיזוק על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הרכבה ברקטים של חיווט על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הדבקת מדבקות הארקה על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הדבקת מדבקות אזהרה מאחורי הארון על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הרכבת מסילות של Enclosure בהתאם למסמך Layout על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> כוון את המיקום של הפרופילים האחוריים (TIE-BAR) לפי ג'יג מסילת ENC </todo> \\
+<todo @prod> פרק שני פקקיי פלסטיק מקדימה בקורה התחתונה. </todo> \\
 {{:cdc:pic02.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> וודא הרכבת מסילות של Utility Drawer 1U על פי הוראות עבודה מסמך WI101036 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הרכבת מסילות של BBU על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הרכבת מסילות של Utility Drawer 1U על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod> וודא הרכבת מסילות של BBU על פי הוראות עבודה מסמך WI101036 </todo> \\
 **בדיקת קיט חיזוק** \\
-<todo @prod #avivw:2018-01-24> בדוק סדר הרכבה נכונה: 1. דסקה שטוחה 2. דסקה קפיצית 3. בורג. </todo> \\
+<todo @prod> בדוק סדר הרכבה נכונה: 1. דסקה שטוחה 2. דסקה קפיצית 3. בורג. </todo> \\
 {{:cdc:10-1.png?nolink&200|}} \\
-<todo @prod #avivw:2018-01-24> וודא ברגים סגורים ו/או לא חסרים ומורכבים בהתאם לשרטוט עבור התמונות הבאות </todo> \\
+<todo @prod> וודא ברגים סגורים ו/או לא חסרים ומורכבים בהתאם לשרטוט עבור התמונות הבאות </todo> \\
 {{:cdc:10-8.jpg?200|}} \\
 {{:cdc:kit-1.jpg?200|}} \\
 {{:cdc:kit-2.jpg?200|}} \\
@@ -50,48 +50,48 @@ This publication contains proprietary of Tel-Ad Ltd. provided to those concerned
 {{:cdc:kit-4.jpg?200|}} \\
 {{:cdc:kit-5.jpg?200|}} \\
 {{:cdc:kit-6.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> וודא הרכבה של מרווחון לצירים של הדלת </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הרכבה של חלק היוצר מרווח בין הצירים לארון עצמו צד שמאל </todo> \\
-<todo @prod #avivw:2018-01-24> וודא הרכבה של חלק היוצר מרווח בין הצירים לארון עצמו צד ימין </todo> \\
+<todo @prod> וודא הרכבה של מרווחון לצירים של הדלת </todo> \\
+<todo @prod> וודא הרכבה של חלק היוצר מרווח בין הצירים לארון עצמו צד שמאל </todo> \\
+<todo @prod> וודא הרכבה של חלק היוצר מרווח בין הצירים לארון עצמו צד ימין </todo> \\
 **בדיקת מדבקות** \\
-<todo @prod #avivw:2018-01-24> הורד מדבקות APC בחזית הארון </todo> \\
+<todo @prod> הורד מדבקות APC בחזית הארון </todo> \\
 {{:cdc:pic03.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> הדבק מדבקות הארקה מאחורי הארון למטה </todo> \\
+<todo @prod> הדבק מדבקות הארקה מאחורי הארון למטה </todo> \\
 {{:cdc:pic06.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> הדבק מדבקת UL בתחתית הארון למטה </todo> \\
+<todo @prod> הדבק מדבקת UL בתחתית הארון למטה </todo> \\
 {{:cdc:ul-1.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> הדבק מדבקות צד למספור המכשירים ע"פ סוג הארון F6/F4/F2/F1 </todo> \\
-<todo @prod #avivw:2018-01-24> הדבק מדבקת מספר מערכת מקדימה ומאחורה </todo> \\
+<todo @prod> הדבק מדבקות צד למספור המכשירים ע"פ סוג הארון F6/F4/F2/F1 </todo> \\
+<todo @prod> הדבק מדבקת מספר מערכת מקדימה ומאחורה </todo> \\
 {{:cdc:10-7.jpg?nolink&200|}} \\
 **בדיקת מסילות** \\
-<todo @prod #avivw:2018-01-24> בדוק שכל ברגים של מסילות  BBU סגורים-חוץ מ - BBU2 </todo> \\
-<todo @prod #avivw:2018-01-24> וודא חלקו האמצעי של מסילת ה-BBU מוצמד לחלקו האחורי של הארון משני צידי ה-BBU </todo> \\
+<todo @prod> בדוק שכל ברגים של מסילות  BBU סגורים-חוץ מ - BBU2 </todo> \\
+<todo @prod> וודא חלקו האמצעי של מסילת ה-BBU מוצמד לחלקו האחורי של הארון משני צידי ה-BBU </todo> \\
 {{:cdc:10-3.png?nolink&200|}} \\
-<todo @prod #avivw:2018-01-24> בדוק שכל הברגים של המסילות  ENC </todo> \\
+<todo @prod> בדוק שכל הברגים של המסילות  ENC </todo> \\
 סגורות \\
 מחוזקות \\
 לא חרושות \\
 {{:cdc:pic04.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> וודא בכל ENC ב-2 צדדים 6 ברגים מחוברים למסילה ושלמים </todo> \\
+<todo @prod> וודא בכל ENC ב-2 צדדים 6 ברגים מחוברים למסילה ושלמים </todo> \\
 {{:cdc:10-2.png?nolink&200|}} \\
 **בדיקת הארון** \\
-<todo @prod #avivw:2018-01-24> וודא ברגי סטופרים בתחתית הארון מוברגים עד הסוף כלפי מעלה </todo> \\
+<todo @prod> וודא ברגי סטופרים בתחתית הארון מוברגים עד הסוף כלפי מעלה </todo> \\
 {{:cdc:pic012.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> וודא פלסטיקים בתחתית הברגים קיימים ושלמים </todo> \\
-<todo @prod #avivw:2018-01-24> וודא קיום 2 ברגים שחורים קיימים וסגורים בחלק התחתון האחורי של הארון </todo> \\
+<todo @prod> וודא פלסטיקים בתחתית הברגים קיימים ושלמים </todo> \\
+<todo @prod> וודא קיום 2 ברגים שחורים קיימים וסגורים בחלק התחתון האחורי של הארון </todo> \\
 {{:cdc:pic011.jpg?200|}} \\
-<todo @prod #avivw:2018-01-24> וודא מדבקת UL מודבקת בתחתית הארון מאחור </todo> \\
+<todo @prod> וודא מדבקת UL מודבקת בתחתית הארון מאחור </todo> \\
 {{:cdc:pic01.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] sys10_issue_cell
+action pagemod [[cdc:ibox1991]] sys10_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
 </hidden>
- **Done** ** **  **by** **<color #22b14c>Aviv</color>**  **at** **2018-01-24 13:45**  \\ <pagemod sys10_issue_cell output_before> **@@Status@@** **@@Free text area@@**  **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@**  \\ </pagemod>
+<pagemod sys10_issue_cell output_before> **@@Status@@** **@@Free text area@@**  **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@**  \\ </pagemod>
 ====== SYS20 Generic ======
 <hidden>
 <todo @prod> פתח מסילות ENC ובדוק </todo> \\
@@ -168,7 +168,7 @@ ENC # B \\
 <todo @prod> וודא שכל הברגים סגורים ומהודקים לכל אורך הפרופילים </todo> \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys20_issue_cell
+action pagemod [[cdc:ibox1991]] sys20_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -178,7 +178,7 @@ submit  "SUBMIT"
 <pagemod sys20_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30 Generic ======
 <hidden>
-<todo @prod> יש לאסוף את הבנדלים הבאים מטה </todo> \\
+<todo @prod #maor:2018-01-25> יש לאסוף את הבנדלים הבאים מטה </todo> \\
 \\
 **עבור F6** \\
 \\
@@ -188,7 +188,7 @@ submit  "SUBMIT"
 <pagemod f6_issue_cell output_before> **@@ENC@@** **done by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] f6_issue_cell
+action pagemod [[cdc:ibox1991]] f6_issue_cell
 select  "ENC" "|ENC1/2-A|ENC1/2-B|ENC3/4-A|ENC3/4-B|ENC5/6-A|ENC5/6-B|ENC7/8-A|ENC7/8-B"
 submit  "SUBMIT" 
 </form>
@@ -200,7 +200,7 @@ submit  "SUBMIT"
 <pagemod f4_issue_cell output_before> **@@ENC@@** **done by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@**  \\ </pagemod>
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] f4_issue_cell
+action pagemod [[cdc:ibox1991]] f4_issue_cell
 select  "ENC" "|ENC1/2-A|ENC1/2-B|ENC3/4-A|ENC3/4-B"
 submit  "SUBMIT" 
 </form>
@@ -213,44 +213,44 @@ submit  "SUBMIT"
 <pagemod f2_issue_cell output_before> **@@ENC@@** **done by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@**  \\ </pagemod>
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] f2_issue_cell
+action pagemod [[cdc:ibox1991]] f2_issue_cell
 select  "ENC" "|ENC1/2-A|ENC1/2-B"
 submit  "SUBMIT" 
 </form> 
 </WRAP> \\
-<todo @prod> וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון </todo> \\
-<todo @prod> הרכב צמות וחבר את הכבלים למגירה ENC*-A </todo> \\
+<todo @prod #maor:2018-01-25> וודא קיום מדבקות זיהוי לבנות של ה-ENC ולפי הסדר הנכון </todo> \\
+<todo @prod #maor:2018-01-25> הרכב צמות וחבר את הכבלים למגירה ENC*-A </todo> \\
 {{:cdc:30-1.jpg?200|}} \\
-<todo @prod> הרכב צמות וחבר את הכבלים למגירה ENC*-B </todo> \\
+<todo @prod #maor:2018-01-25> הרכב צמות וחבר את הכבלים למגירה ENC*-B </todo> \\
 {{:cdc:30-2.jpg?200|}} \\
-<todo @prod> חווט את הצמות לתעלת חיווט </todo> \\
+<todo @prod #maor:2018-01-25> חווט את הצמות לתעלת חיווט </todo> \\
 {{:cdc:30-3.jpg?200|}} \\
-<todo @prod> בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar </todo> \\
+<todo @prod #maor:2018-01-25> בצע חיווט בצורת גל לכל כבל מתח ב-Tie-Bar </todo> \\
 {{:cdc:30-4.jpg?200|}} \\
-<todo @prod> וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
+<todo @prod #maor:2018-01-25> וודא בורג של זרוע החיווט בכל הזרועות </todo> \\
 {{:cdc:30-5.jpg?200|}} \\
-<todo @prod> וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
+<todo @prod #maor:2018-01-25> וודא ברגים של הזרוע בחיבור למגירה סגורים בכל המגירות </todo> \\
 {{:cdc:30-6.jpg?200|}} \\
-<todo @prod> וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין) </todo> \\
+<todo @prod #maor:2018-01-25> וודא הצמדה של שתי זרועות החיווט של ה-Enclosure בכל המגירות (ראה תמונה מצב לא תקין) </todo> \\
 {{:cdc:30-7.jpg?200|}} \\
-<todo @prod> וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט </todo> \\
-<todo @prod> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
+<todo @prod #maor:2018-01-25> וודא חיווט אחיד בכל הצמות בחיבור בין הזרוע לתעלת החיווט </todo> \\
+<todo @prod #maor:2018-01-25> וודא קשתות  בין הזרוע ל-ENC כלפי מעלה</todo> \\
 {{:cdc:up.jpg?200|}} \\
-<todo @prod> וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap </todo>
+<todo @prod #maor:2018-01-25> וודא בכל זרוע חיווט קיים משולש פלסטיק + tie wrap </todo>
 וודא בכל זרוע חיווט 4 tie wrap  ישרים ומורכבים בכיוון הנכון \\
 וודא שעל המשולש מפלסטיק מורכב tie wrap ישר בכיוון הנכון \\
 וודא על הברקט מורכב סקוטש \\
 {{:cdc:30-8.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] sys30_issue_cell
+action pagemod [[cdc:ibox1991]] sys30_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
 </hidden>
-<pagemod sys30_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Maor</color>**  **at** **2018-01-25 14:40** \\ <pagemod sys30_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS35-QC ======
 <hidden>
 <todo @qc> וודא חתימת QC2 במסמך U Utility drawer  Final Visual Inspection1. </todo> \\
@@ -401,7 +401,7 @@ submit  "SUBMIT"
 <todo @qc> וודא שכל הברגים קימים ומחוזקים 4 ברגים בכל צד </todo> \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys35_issue_cell
+action pagemod [[cdc:ibox1991]] sys35_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -411,197 +411,197 @@ submit  "SUBMIT"
 <pagemod sys35_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30-Custom ======
 <hidden>
-<todo @prod>בדוק קיום מק"ט על ה-NODE תואם את המצויין ב-Hard Card </todo> \\
+<todo @prod #maor:2018-01-25>בדוק קיום מק"ט על ה-NODE תואם את המצויין ב-Hard Card </todo> \\
 אם לא ניתן לזהות את המק"ט יש לקרוא למנהל ייצור \\
 {{:cdc:20-11.jpg?200|}} \\
-<todo @prod> בדוק שכל הכרטיסים המורכבים במגירה מורכבים ישר ולא עקומים </todo> \\
-<todo @prod> וודא מדבקות דיסקים לוקאלים נקיים ומודבקים ישר בתוך האמבטיה </todo> \\
-<todo @prod> וודא שכל הדיסקים הלוקליים בעלי אותו המק"ט </todo> \\
+<todo @prod #maor:2018-01-25> בדוק שכל הכרטיסים המורכבים במגירה מורכבים ישר ולא עקומים </todo> \\
+<todo @prod #maor:2018-01-25> וודא מדבקות דיסקים לוקאלים נקיים ומודבקים ישר בתוך האמבטיה </todo> \\
+<todo @prod #maor:2018-01-25> וודא שכל הדיסקים הלוקליים בעלי אותו המק"ט </todo> \\
 {{:cdc:20-14.jpg?200|}} \\
-<todo @prod> וודא הרכבת מסילות של NODE במידה וקיימים על פי הוראות עבודה מסמך WI101036 </todo> \\
+<todo @prod #maor:2018-01-25> וודא הרכבת מסילות של NODE במידה וקיימים על פי הוראות עבודה מסמך WI101036 </todo> \\
 <todo @prod> הדבק מדבקות SN (IBOXxxxx) </todo> \\
-<todo @prod> וודא הרכבת את שלושת ה-NODE על פי הוראות במסמך WI101037 </todo> \\
-<todo @prod> הרכב SSD בהתאם למצוין ב-Hard card </todo> \\
-<todo @prod> הרכב PDU בהתאם למצוין ב-Hard card </todo> \\
+<todo @prod #maor:2018-01-25> וודא הרכבת את שלושת ה-NODE על פי הוראות במסמך WI101037 </todo> \\
+<todo @prod #maor:2018-01-25> הרכב SSD בהתאם למצוין ב-Hard card </todo> \\
+<todo @prod #maor:2018-01-25> הרכב PDU בהתאם למצוין ב-Hard card </todo> \\
 את דו"ח הבדיקה הצמד לחלקו הקידמי של ה-PDU בתוך שקית ניילון קטנה(של הכבל שמגיע עם ה-PDU) \\
 {{:cdc:pdu-5.jpg?200|}} \\
-<todo @prod> הדבק מדבקות זיהוי למכשירי NODE </todo> \\
-<todo @prod> הדבק מדבקות זיהוי למכשירי PDU </todo> \\
-<todo @prod> הדבק מדבקת כבל של ה-PDU# 5 ס"מ מהקונקטור </todo> \\
-<todo @prod> יש לאסוף את הבנדלים הבאים </todo> \\
+<todo @prod #maor:2018-01-25> הדבק מדבקות זיהוי למכשירי NODE </todo> \\
+<todo @prod #maor:2018-01-25> הדבק מדבקות זיהוי למכשירי PDU </todo> \\
+<todo @prod #maor:2018-01-25> הדבק מדבקת כבל של ה-PDU# 5 ס"מ מהקונקטור </todo> \\
+<todo @prod #maor:2018-01-25> יש לאסוף את הבנדלים הבאים </todo> \\
 {{:cdc:30-22.jpg?200|}} \\
-<todo @prod> וודא ניתוב נכון של הכבל לעומת המדבקה-שורה עליונה מתחברת למכשיר </todo> \\
-<todo @prod> חבר כבלי הארקה ל-PDU לנק' הארקה ראשיות בכל צד </todo> \\
-<todo @prod> חבר כבלי מתח של ה-ENC ל-PDU </todo> \\
-<todo @prod> הדבר מדבקת ניתוב ע"ג כבלי המתח של ה-1U בהתאם לסוג ארון וחבר ל-PDU </todo> \\
-<todo @prod> חווט כבלי מתח מ- 1U ל- BBU</todo> \\
+<todo @prod #maor:2018-01-25> וודא ניתוב נכון של הכבל לעומת המדבקה-שורה עליונה מתחברת למכשיר </todo> \\
+<todo @prod #maor:2018-01-25> חבר כבלי הארקה ל-PDU לנק' הארקה ראשיות בכל צד </todo> \\
+<todo @prod #maor:2018-01-25> חבר כבלי מתח של ה-ENC ל-PDU </todo> \\
+<todo @prod #maor:2018-01-25> הדבר מדבקת ניתוב ע"ג כבלי המתח של ה-1U בהתאם לסוג ארון וחבר ל-PDU </todo> \\
+<todo @prod #maor:2018-01-25> חווט כבלי מתח מ- 1U ל- BBU</todo> \\
 {{:cdc:20-16.jpg?200|}} \\
-<todo @prod> חווט כבלי מתח מ-BBU ל-NODE </todo> \\
+<todo @prod #maor:2018-01-25> חווט כבלי מתח מ-BBU ל-NODE </todo> \\
 {{:cdc:30-9.jpg?200|}} \\
 {{:cdc:30-10.jpg?200|}} \\
-<todo @prod> חווט כבלי רשת של SW </todo> \\
+<todo @prod #maor:2018-01-25> חווט כבלי רשת של SW </todo> \\
 {{:cdc:30-11.jpg?200|}} \\
 {{:cdc:30-12.jpg?200|}} \\
 {{:cdc:30-13.jpg?200|}} \\
 {{:cdc:30-14.jpg?200|}} \\
-<todo @prod> חווט כבלי USB </todo> \\
+<todo @prod #maor:2018-01-25> חווט כבלי USB </todo> \\
 {{:cdc:30-15.jpg?200|}} \\
 {{:cdc:30-16.jpg?200|}} \\
-<todo @prod> חווט כבלי IB </todo> \\
+<todo @prod #maor:2018-01-25> חווט כבלי IB </todo> \\
 {{:cdc:30-17.jpg?200|}} \\
-<todo @prod> כוון מגירת 1U לפתיחה וסגירה חלקה. </todo> \\
+<todo @prod #maor:2018-01-25> כוון מגירת 1U לפתיחה וסגירה חלקה. </todo> \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys30c_issue_cell
+action pagemod [[cdc:ibox1991]] sys30c_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
 </hidden>
-<pagemod sys30c_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Maor</color>**  **at** **2018-01-25 14:42** \\ <pagemod sys30c_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS40 Hi Pot Test======
 <hidden>
 **Check** \\
-<todo @prod> וודא חיבורי מתח מהודקים לכל המכלולים. </todo> \\
-<todo @prod> וודא שמפסקים בכל אחד מה-PDU במצב "ON" </todo> \\
+<todo @prod #maor:2018-01-25> וודא חיבורי מתח מהודקים לכל המכלולים. </todo> \\
+<todo @prod #maor:2018-01-25> וודא שמפסקים בכל אחד מה-PDU במצב "ON" </todo> \\
 {{:cdc:pic025.jpg?200|}} \\
-<todo @prod> וודא שמפסקים בכל אחד מה-ENC במצב "1" </todo> \\
+<todo @prod #maor:2018-01-25> וודא שמפסקים בכל אחד מה-ENC במצב "1" </todo> \\
 {{:cdc:pic026.jpg?200|}} \\
-<todo @prod> וודא שבוצעה בדיקת כיול יומית למכשיר </todo>
+<todo @prod #maor:2018-01-25> וודא שבוצעה בדיקת כיול יומית למכשיר </todo>
 במידה ולא בוצעה בדיקת כיול יומית יש לבצע בדיקה על-פי מסמך AI000401 \\
 **Do** \\
-<todo @prod> שים לב- טרם תחילת הבדיקה ומהלכה יש לבודד באופן סטרילי את הארון, ואסורה הכניסה למתחם הבדיקה לעובדים שאינם מורשים מחשש להתחשמלות ופגיעה גופנית.</todo> \\
-<todo @prod> חבר כבל מתאם Hi-Pot</todo> \\
-<todo @prod> חבר מעקף ליחידות ה-BBU. </todo> \\
-<todo @prod> חבר כבל מתאם Hi-Pot  אדום\כחול (מק"ט (TAS-921-00014) </todo> \\
+<todo @prod #maor:2018-01-25> שים לב- טרם תחילת הבדיקה ומהלכה יש לבודד באופן סטרילי את הארון, ואסורה הכניסה למתחם הבדיקה לעובדים שאינם מורשים מחשש להתחשמלות ופגיעה גופנית.</todo> \\
+<todo @prod #maor:2018-01-25> חבר כבל מתאם Hi-Pot</todo> \\
+<todo @prod #maor:2018-01-25> חבר מעקף ליחידות ה-BBU. </todo> \\
+<todo @prod #maor:2018-01-25> חבר כבל מתאם Hi-Pot  אדום\כחול (מק"ט (TAS-921-00014) </todo> \\
 יציאות ה-PDU לכל אחד מהצרכנים המתחברים ל-PDU הנבדק \\
-<todo @prod> כייל מכשיר Hi-Pot לתוכנית בדיקה 01. </todo> \\
-<todo @prod> רשום את תוצאות הבדיקה עבור כל PDU וחזור על הבדיקה על כל ה-PDU הקיימים במכונה. </todo> \\
+<todo @prod #maor:2018-01-25> כייל מכשיר Hi-Pot לתוכנית בדיקה 01. </todo> \\
+<todo @prod #maor:2018-01-25> רשום את תוצאות הבדיקה עבור כל PDU וחזור על הבדיקה על כל ה-PDU הקיימים במכונה. </todo> \\
 **הערה: במידה והבדיקה נכשלה יש לקרוא להנדסה לביצוע FA מיידי.** \\
 <pagemod pdu_issue_cell output_before> **@@PDU@@** **value is** <color #22b14c>@@Value is@@</color>  **recorded by @@meta.user.name@@ ** **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] pdu_issue_cell
+action pagemod [[cdc:ibox1991]] pdu_issue_cell
 select  "PDU" "|PDU-1|PDU-2|PDU-3|PDU-4|"
 textbox "Value is" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
-<todo @prod> נתק מעקף </todo> \\
+<todo @prod #maor:2018-01-25> נתק מעקף </todo> \\
 חבר את כבלי המתח בכניסה וביציאה של ה-BBU \\
 סגור נועל של כבלי יציאה מה-BBU בתוספת דסקה פלסטיק מק"ט \\
 TAS-175-00022. \\
 {{:cdc:30-18.jpg?200|}} \\
-<todo @prod>נתק כבל מתאם Hi-Pot  אדום\כחול </todo> \\
+<todo @prod #maor:2018-01-25>נתק כבל מתאם Hi-Pot  אדום\כחול </todo> \\
 בין יציאות ה-PDU לכל אחד מהצרכנים המתחברים ל-PDU הנבדק \\
-<todo @prod> חבר כבלי מתח של המערכת ל-PDU </todo> \\
-<todo @prod> העבר מפסקים של כל ה-ENC למצב "0" </todo> \\
+<todo @prod #maor:2018-01-25> חבר כבלי מתח של המערכת ל-PDU </todo> \\
+<todo @prod #maor:2018-01-25> העבר מפסקים של כל ה-ENC למצב "0" </todo> \\
 {{:cdc:pic020.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] hipot_issue_cell
+action pagemod [[cdc:ibox1991]] hipot_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
 </hidden>
-<pagemod hipot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Maor</color>**  **at** **2018-01-25 14:43** \\ <pagemod hipot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== Wiring post Hi Pot Test ======
 <hidden>
-<todo @prod> הרכב Patch Panel-וודא מדבקת PASS QC ע"ג ה-PP. </todo> \\
+<todo @prod #maor:2018-01-25> הרכב Patch Panel-וודא מדבקת PASS QC ע"ג ה-PP. </todo> \\
 **בדיקה סופית** \\
-<todo @prod> בדוק עפ"י מסמך ICD התואם לתצורת המערכת : </todo> \\
+<todo @prod #maor:2018-01-25> בדוק עפ"י מסמך ICD התואם לתצורת המערכת : </todo> \\
 חיבוריות כבילה \\
 כיוון מדבקות \\
-<todo @prod> לחץ על כל הקונקטורים בפנל ווודא קונקטורים LAN ב-PP מקובעים כראוי נעולים ולא זזים. </todo> \\
+<todo @prod #maor:2018-01-25> לחץ על כל הקונקטורים בפנל ווודא קונקטורים LAN ב-PP מקובעים כראוי נעולים ולא זזים. </todo> \\
 {{:cdc:40-1.jpg?200|}} \\
-<todo @prod> וודא שבכל כניסות ה-FC ב-PP ישנם מכסי אופטי לבנים. </todo> \\
+<todo @prod #maor:2018-01-25> וודא שבכל כניסות ה-FC ב-PP ישנם מכסי אופטי לבנים. </todo> \\
 {{:cdc:40-2.jpg?200|}} \\
-<todo @prod> וודא כניסות 11,12(בשלושת ה-NODE) עם כיסוי מתאים(Copper או Optic). </todo> \\
+<todo @prod #maor:2018-01-25> וודא כניסות 11,12(בשלושת ה-NODE) עם כיסוי מתאים(Copper או Optic). </todo> \\
 {{:cdc:pic027.jpg?200|}} \\
-<todo @prod> וודא ברגים של PP סגורים היטב בעזרת מברג. </todo> \\
-<todo @prod> בדוק חיווט PP בהתאם לסוג הפנל </todo> \\
-<todo @prod> וודא קשתות אחידות </todo> \\
-<todo @prod> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ </todo> \\
-<todo @prod> וודא סקוטש ביציאת הכבילה מה-PP המגן מפני הפנל. </todo> \\
+<todo @prod #maor:2018-01-25> וודא ברגים של PP סגורים היטב בעזרת מברג. </todo> \\
+<todo @prod #maor:2018-01-25> בדוק חיווט PP בהתאם לסוג הפנל </todo> \\
+<todo @prod #maor:2018-01-25> וודא קשתות אחידות </todo> \\
+<todo @prod #maor:2018-01-25> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ </todo> \\
+<todo @prod #maor:2018-01-25> וודא סקוטש ביציאת הכבילה מה-PP המגן מפני הפנל. </todo> \\
 {{:cdc:40-3.jpg?400|}} \\
 **וודא כבלי ספייר (1G/10G) של ה-NODE מחווטים לדופן הצדדי של הארון עם כיסוי פצפץ-R720 בלבד!** \\
-<todo @prod> SW וודא קשתות אחידות.וודא כבלי רשת לא שבורים(ללא קמטים) ורדיוס כיפוף 75 מ"מ. </todo> \\
+<todo @prod #maor:2018-01-25> SW וודא קשתות אחידות.וודא כבלי רשת לא שבורים(ללא קמטים) ורדיוס כיפוף 75 מ"מ. </todo> \\
 **BBU** \\
-<todo @prod> וודא בכל BBU כבל LAN מחובר לפורט השמאלי </todo> \\
-<todo @prod> וודא כרטיס מחובר ישר ובעזרת שתי ברגים </todo> \\
+<todo @prod #maor:2018-01-25> וודא בכל BBU כבל LAN מחובר לפורט השמאלי </todo> \\
+<todo @prod #maor:2018-01-25> וודא כרטיס מחובר ישר ובעזרת שתי ברגים </todo> \\
 {{:cdc:40-5.jpg?200|}} \\
-<todo @prod> וודא בכל BBU מגש נעילת כבלי מתח מורכב בעזרת שתי ברגים ומחוזק. </todo> \\
+<todo @prod #maor:2018-01-25> וודא בכל BBU מגש נעילת כבלי מתח מורכב בעזרת שתי ברגים ומחוזק. </todo> \\
 {{:cdc:40-6.jpg?200|}} \\
-<todo @prod> וודא בכל BBU שה-JUMPER מחובר כראוי </todo> \\
+<todo @prod #maor:2018-01-25> וודא בכל BBU שה-JUMPER מחובר כראוי </todo> \\
 {{:cdc:new_jumper.jpg?nolink&200|}} \\
-<todo @prod> וודא כבלי מתח עוברים מעל ה-PP </todo> \\
+<todo @prod #maor:2018-01-25> וודא כבלי מתח עוברים מעל ה-PP </todo> \\
 {{:cdc:pic029.jpg?200|}} \\
-<todo @prod> וודא כבלי USB ורשת  עוברים מתחת ה-PP ואינם מחוווטים עם כבלי POWER. </todo> \\
+<todo @prod #maor:2018-01-25> וודא כבלי USB ורשת  עוברים מתחת ה-PP ואינם מחוווטים עם כבלי POWER. </todo> \\
 **PDU** \\
-<todo @prod> וודא ע"י משיכה שכל כבלי POWER המחוברים ל-PDU נעולים ואינם ניתקים מה-PDU. </todo> \\
-<todo @prod> וודא קיום מדבקת זיהוי לבנה על גבי כל אחד מה-PDU בהתאם לתצורה. </todo> \\
+<todo @prod #maor:2018-01-25> וודא ע"י משיכה שכל כבלי POWER המחוברים ל-PDU נעולים ואינם ניתקים מה-PDU. </todo> \\
+<todo @prod #maor:2018-01-25> וודא קיום מדבקת זיהוי לבנה על גבי כל אחד מה-PDU בהתאם לתצורה. </todo> \\
 {{:cdc:pic031.jpg?200|}} \\
-<todo @prod> וודא חיבור כבלי ארקה בין ה-PDU לנקודת ארקה בארון </todo> \\
+<todo @prod #maor:2018-01-25> וודא חיבור כבלי ארקה בין ה-PDU לנקודת ארקה בארון </todo> \\
 {{:cdc:40-8.jpg?200|}} \\
-<todo @prod> וודא מק"טים אחידים של ה-PDU מול ההרכבה </todo> \\
-<todo @prod> וודא קשתות אחידות בחיווט כבלי המתח ל-PDU. </todo> \\
-<todo @prod> וודא כבלי רשת לא שבורים (ללא קמטים). </todo> \\
-<todo @prod> וודא חיבור כבל רשת לפורט השמאלי ב-PDU. </todo> \\
+<todo @prod #maor:2018-01-25> וודא מק"טים אחידים של ה-PDU מול ההרכבה </todo> \\
+<todo @prod #maor:2018-01-25> וודא קשתות אחידות בחיווט כבלי המתח ל-PDU. </todo> \\
+<todo @prod #maor:2018-01-25> וודא כבלי רשת לא שבורים (ללא קמטים). </todo> \\
+<todo @prod #maor:2018-01-25> וודא חיבור כבל רשת לפורט השמאלי ב-PDU. </todo> \\
 {{:cdc:40-9.jpg?200|}} \\
 **NODE** \\
-<todo @prod> וודא כבל USB מחובר לפורט העליון ומחווט יחד עם הצמה ושלא מתוח </todo> \\
-<todo @prod> וודא שצמת כבלי הרשת (ירוק) ל NODE3  ולא נוגעת ב- ENC1 </todo> \\
+<todo @prod #maor:2018-01-25> וודא כבל USB מחובר לפורט העליון ומחווט יחד עם הצמה ושלא מתוח </todo> \\
+<todo @prod #maor:2018-01-25> וודא שצמת כבלי הרשת (ירוק) ל NODE3  ולא נוגעת ב- ENC1 </todo> \\
 {{:cdc:pic032.jpg?200|}} \\
-<todo @prod> NODE-וודא כבלי מתח נצורים בעזרת חווק. </todo> \\
+<todo @prod #maor:2018-01-25> NODE-וודא כבלי מתח נצורים בעזרת חווק. </todo> \\
 {{:cdc:pic033.jpg?200|}} \\
-<todo @prod> וודא קשתות אחידות </todo> \\
-<todo @prod> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ. </todo> \\
-<todo @prod> וודא מדבקות זיהוי לבנות(ע"ג המכשיר) בהתאם למספור המכשיר, קיימות, ישרות ואינן מתקלפות. </todo> \\
+<todo @prod #maor:2018-01-25> וודא קשתות אחידות </todo> \\
+<todo @prod #maor:2018-01-25> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס כיפוף 75ממ. </todo> \\
+<todo @prod #maor:2018-01-25> וודא מדבקות זיהוי לבנות(ע"ג המכשיר) בהתאם למספור המכשיר, קיימות, ישרות ואינן מתקלפות. </todo> \\
 {{:cdc:pic034.jpg?200|}} \\
-<todo @prod> וודא מדבקות זיהוי לבנות(ע"ג המסילה) הימנית ישרות, ואינן מתקלפות בהתאם למספור המכשיר. </todo> \\
+<todo @prod #maor:2018-01-25> וודא מדבקות זיהוי לבנות(ע"ג המסילה) הימנית ישרות, ואינן מתקלפות בהתאם למספור המכשיר. </todo> \\
 {{:cdc:pic035.jpg?200|}} \\
-<todo @prod> וודא מדבקת "INFINIDAT" אובלית בחזית כל NODE ללא פגיעות צבע, ישרה ומותאמת לבסיס האובלי של הפנל. </todo> \\
+<todo @prod #maor:2018-01-25> וודא מדבקת "INFINIDAT" אובלית בחזית כל NODE ללא פגיעות צבע, ישרה ומותאמת לבסיס האובלי של הפנל. </todo> \\
 {{:cdc:pic037.jpg?200|}} \\
-<todo @prod> וודא פנל שלם ללא פגיעות. </todo> \\
-<todo @prod> R730-וודא מפתח נעילה קיים בפנל בחלק הפנימי. </todo> \\
+<todo @prod #maor:2018-01-25> וודא פנל שלם ללא פגיעות. </todo> \\
+<todo @prod #maor:2018-01-25> R730-וודא מפתח נעילה קיים בפנל בחלק הפנימי. </todo> \\
 {{:cdc:pic038.jpg?200|}} \\
 **R720-וודא מפתח נעילה של כל הפנלים הוסר מהמכסה ואינו קיים.** \\
 {{:cdc:pic039.jpg?200|}} \\
-<todo @prod> וודא ברגים קדמיים סגורים. </todo> \\
-<todo @prod> וודא פנל הפעלה ומחברים שלמים תקינים. </todo> \\
+<todo @prod #maor:2018-01-25> וודא ברגים קדמיים סגורים. </todo> \\
+<todo @prod #maor:2018-01-25> וודא פנל הפעלה ומחברים שלמים תקינים. </todo> \\
 {{:cdc:pic040.jpg?200|}} \\
-<todo @prod> וודא 8 דיסקים לוקאלים שלא מורכבים עליהם CAGE פלסטיק. </todo> \\
-<todo @prod> הוצא את הדיסק החוצה-וודא דיסקים לוקאלים בכל ה-NODE זהים עם אותה סיומת 0007 או 0088. </todo> \\
+<todo @prod #maor:2018-01-25> וודא 8 דיסקים לוקאלים שלא מורכבים עליהם CAGE פלסטיק. </todo> \\
+<todo @prod #maor:2018-01-25> הוצא את הדיסק החוצה-וודא דיסקים לוקאלים בכל ה-NODE זהים עם אותה סיומת 0007 או 0088. </todo> \\
 {{:cdc:40-10.jpg?200|}} \\
-<todo @prod> בהחזרת הדיסק וודא נועל דיסק תקין ונעילה של הדיסקים. </todo> \\
-<todo @prod> וודא מדבקות של הדיסקים מודבקים בתוך המסגרת ישרים,נקיים ואינם מתקלפים. </todo> \\
-<todo @prod> הוצא את הכיסויים של פתחי ה-SSD/HDD וודא שהם שלמים ללא פגיעות פלסטיקה ועיוותים. </todo> \\
+<todo @prod #maor:2018-01-25> בהחזרת הדיסק וודא נועל דיסק תקין ונעילה של הדיסקים. </todo> \\
+<todo @prod #maor:2018-01-25> וודא מדבקות של הדיסקים מודבקים בתוך המסגרת ישרים,נקיים ואינם מתקלפים. </todo> \\
+<todo @prod #maor:2018-01-25> הוצא את הכיסויים של פתחי ה-SSD/HDD וודא שהם שלמים ללא פגיעות פלסטיקה ועיוותים. </todo> \\
 **R720-וודא קיום מדבקות מספור HDD 1-16.** \\
-<todo @prod> R730-וודא קיום מדבקות מספור HDD 1-24. </todo> \\
+<todo @prod #maor:2018-01-25> R730-וודא קיום מדבקות מספור HDD 1-24. </todo> \\
 {{:cdc:pic042.jpg?200|}} \\
 **ENC** \\
-<todo @prod> וודא כל הכבלים מחוברים ומאובטחים, אינם רופפים ואין להם שום מגע עם המודול שמתחתם. </todo>
+<todo @prod #maor:2018-01-25> וודא כל הכבלים מחוברים ומאובטחים, אינם רופפים ואין להם שום מגע עם המודול שמתחתם. </todo>
 וודא כל כבלי המתח מחוברים כראוי ע"י לחיצה פנימה של כל כבל מתח \\
 {{:cdc:40-4.jpg?200|}} \\
 משוך את המגירה החוצה עד סוף המהלך: \\
-<todo @prod> וודא בפתיחה וסגירה של המגירה תנועה חלקה של המסילות. </todo> \\
-<todo @prod> וודא ברגים המחברים בין זרוע חיווט למסילה סגורים ואין מרווח בין ראש הבורג לזרוע(בדיקה בעזרת מברג בולדוג). </todo> \\
-<todo @prod> כבלים נעים בחופשיות ללא מגע עם המסילה. </todo> \\
-<todo @prod> וודא כל המפסקים של המכשירים(2 מפסקים לכל ENC) נמצאים במצב "0". </todo> \\
+<todo @prod #maor:2018-01-25> וודא בפתיחה וסגירה של המגירה תנועה חלקה של המסילות. </todo> \\
+<todo @prod #maor:2018-01-25> וודא ברגים המחברים בין זרוע חיווט למסילה סגורים ואין מרווח בין ראש הבורג לזרוע(בדיקה בעזרת מברג בולדוג). </todo> \\
+<todo @prod #maor:2018-01-25> כבלים נעים בחופשיות ללא מגע עם המסילה. </todo> \\
+<todo @prod #maor:2018-01-25> וודא כל המפסקים של המכשירים(2 מפסקים לכל ENC) נמצאים במצב "0". </todo> \\
 {{:cdc:pic020.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] sys40hot_issue_cell
+action pagemod [[cdc:ibox1991]] sys40hot_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>
 </hidden>
-<pagemod sys40hot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Maor</color>**  **at** **2018-01-25 14:45** \\ <pagemod sys40hot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS45 QC ======
 <hidden>
 <todo @qc> וודא מסמך Hard Card תואם את המכונה. </todo> \\
@@ -656,7 +656,7 @@ R730-וודא קיום מדבקת מספור HDD 1-24.\\
 <todo @qc> וודא שאין הערות פתוחות שטרם נסגרו שמונעות את הורדת הארון ל-IVT </todo> \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys45qc_issue_cell
+action pagemod [[cdc:ibox1991]] sys45qc_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -674,7 +674,7 @@ submit  "SUBMIT"
 <todo @prod> פתח ברגים של 1U </todo> \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] sys50_issue_cell
+action pagemod [[cdc:ibox1991]] sys50_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -725,7 +725,7 @@ submit  "SUBMIT"
 {{:cdc:m8.jpg?200|}} \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys57_issue_cell
+action pagemod [[cdc:ibox1991]] sys57_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -789,7 +789,7 @@ submit  "SUBMIT"
 וודא כבל מתח של הלד חופשי באורך של 200mm מהאזיקון  בדלת. \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys60_issue_cell
+action pagemod [[cdc:ibox1991]] sys60_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -963,7 +963,7 @@ mm כמוכן וודא שאין שבירות כבלים בחיבור למכלו�
 <todo @clos> שנע את המערכת בזהירות לאזור אחסנה FG </todo> \\
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] sys65_issue_cell
+action pagemod [[cdc:ibox1991]] sys65_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1048,14 +1048,14 @@ submit  "SUBMIT"
 <pagemod driver_issue_cell output_before> **The driver name is** **<color #22b14c>@@Driver name@@</color>** **recorded by** **@@meta.user.name@@** **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 <WRAP 300px bggrey >
 <form>
-action pagemod [[cdc:igen0041172]] driver_issue_cell
+action pagemod [[cdc:ibox1991]] driver_issue_cell
 textbox "Driver name" "= "
 submit  "SUBMIT" 
 </form>
 </WRAP>  \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] sys70_issue_cell
+action pagemod [[cdc:ibox1991]] sys70_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1091,7 +1091,7 @@ submit  "SUBMIT"
 יש לבצע סימון במרקר עבור כל פורט שנבדק \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] pdurec_issue_cell
+action pagemod [[cdc:ibox1991]] pdurec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1136,7 +1136,7 @@ submit  "SUBMIT"
 {{:cdc:bbu-6.jpg?nolink&200|}} \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] bburec_issue_cell
+action pagemod [[cdc:ibox1991]] bburec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1193,7 +1193,7 @@ R720 וודא מפתח נעילה הוסר מהמכסה בחלקו החיצונ�
 יש לבצע סימון במרקר עבור כל פורט שנבדק \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] noderec_issue_cell
+action pagemod [[cdc:ibox1991]] noderec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1214,7 +1214,7 @@ submit  "SUBMIT"
 <todo @qc_ r> וודא חיווט כבלי PP ע"פ ICD </todo> \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] pprec_issue_cell
+action pagemod [[cdc:ibox1991]] pprec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1228,7 +1228,7 @@ submit  "SUBMIT"
 <todo @qc_ r> וודא מק"ט יצרן ומק"ט דיסק תואם לנדרש ב-HC</todo>  \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] ssdrec_issue_cell
+action pagemod [[cdc:ibox1991]] ssdrec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1242,7 +1242,7 @@ submit  "SUBMIT"
 <todo @qc_ r> וודא מק"ט יצרן ומק"ט דיסק תואם לנדרש ב-HC </todo> \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] hddrec_issue_cell
+action pagemod [[cdc:ibox1991]] hddrec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1315,7 +1315,7 @@ submit  "SUBMIT"
 יד לבדיקת גובה שווה לכולם. \\
 <WRAP 300px bggrey >
 <form> 
-action pagemod [[cdc:igen0041172]] encrec_issue_cell
+action pagemod [[cdc:ibox1991]] encrec_issue_cell
 select  "Status" "Done|Shortage"
 textbox "Free text area" "= "
 submit  "SUBMIT" 
@@ -1325,7 +1325,7 @@ submit  "SUBMIT"
 <pagemod encrec_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ** הערות וחוסרים ** \\
 <form> 
-action pagemod [[cdc:igen0041172]] custom_issue_cell
+action pagemod [[cdc:ibox1991]] custom_issue_cell
 select  "Station" "|SYS10 Rack Assembly|SYS20 Generic|SYS30 Generic|SYS40 Hi Pot Test| Wiring post Hi Pot Test|SYS45 QC|SYS50 in IVT|SYS57 out IVT|SYS60 Final Closing|SYS65 Post Assy VI/QC|SYS75 Packaging Assy|"
 select  "Status" "|Shortage|Scratches|Сhanges|QC checked"
 textbox "Free text area" "= "
@@ -1333,15 +1333,15 @@ submit  "SUBMIT"
 </form>
 =====File uploading =====
 <noprint>
-{{upload>cdc:igen0041172|OVERWRITE|RENAMEABLE}}
-{{filelist>data/media/cdc/igen0041172/*.*&style=table&direct=1&tableheader=1&tableshowdate=1&tableshowsize=1&sort=iname}}
+{{upload>cdc:ibox1991|OVERWRITE|RENAMEABLE}}
+{{filelist>data/media/cdc/ibox1991/*.*&style=table&direct=1&tableheader=1&tableshowdate=1&tableshowsize=1&sort=iname}}
 </noprint>
 \\
 <html>
-<A HREF="mailto:gilig@infinidat.com?cc=mavrahami@infinidat.com;dtoledano@infinidat.com;dsagi@infinidat.com;ivt@infinidat.com;UriS@tel-ad.co.il;AlexS@tel-ad.co.il;MordiN@tel-ad.co.il;EldadH@tel-ad.co.il;idor@tel-ad.co.il;TamirK@tel-ad.co.il;OstriO@tel-ad.co.il;Sys-Warehouse@tel-ad.co.il;juliusk@tel-ad.co.il;Borisso@tel-ad.co.il;AlexandrM@tel-ad.co.il&Subject=IGEN0041172%20untested%20items%20were%20used%20for%20reconfig.&Body=Hi%20,%0APlease%20note%20that%20the%20SSDs/PDUs%20were%20untested.%0ARegards,">Usage untested parts for replacements</A>
+<A HREF="mailto:gilig@infinidat.com?cc=mavrahami@infinidat.com;dtoledano@infinidat.com;dsagi@infinidat.com;ivt@infinidat.com;UriS@tel-ad.co.il;AlexS@tel-ad.co.il;MordiN@tel-ad.co.il;EldadH@tel-ad.co.il;idor@tel-ad.co.il;TamirK@tel-ad.co.il;OstriO@tel-ad.co.il;Sys-Warehouse@tel-ad.co.il;juliusk@tel-ad.co.il;Borisso@tel-ad.co.il;AlexandrM@tel-ad.co.il&Subject=IBOX1991%20untested%20items%20were%20used%20for%20reconfig.&Body=Hi%20,%0APlease%20note%20that%20the%20SSDs/PDUs%20were%20untested.%0ARegards,">Usage untested parts for replacements</A>
 </html>
 \\
-[[workorder>igen0041172 |Piority WO:igen0041172]] \\ 
+[[workorder>ibox1991 |Piority WO:ibox1991]] \\ 
 [[https://docs.google.com/spreadsheets/d/1eIxneOT2mb73ANpQFUdeVnaTG9vCk_UN4uBkAtf4XHU/edit#gid=294274400 | STATUS PAGE ]] \\ 
 [[http://10.148.38.142 | WiKi Tel-Ad ]] \\ 
 \\

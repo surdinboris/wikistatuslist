@@ -1,0 +1,4 @@
+<todo start:YYYY-MM-DD due:YYYY-MM-DD>Text</todo> \\
+<todo>Mark text as ToDo</todo> \\
+<todo #julius:2018-01-22>Mark text as ToDo</todo> \\
+<todo #julius:2018-01-22>Mark text as ToDo</todo> \\
