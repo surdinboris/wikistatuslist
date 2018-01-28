@@ -11,16 +11,26 @@ def main(request):
     for wikip in wikiplist: #parsing each wikipage and counting missions that were done
         wikipname=wikip.replace(".txt","").upper()
         tagstat={}
+        tagstat['stations'] = {}
         parsr = Collector(os.path.join(os.getcwd(), 'cdc/', wikip))
         tags=(parsr.tagsclctr).values()
         done = 0
         for tag in tags:
+            #tagstat['stations'].update({tag['station']: {}})
+            if not tag['station'] in tagstat['stations']: #initialising tag station if not exist
+                tagstat['stations'].update({tag['station']: {'Done':0,'Pending':0,'Total':0}})
             if tag['status']  == 'Done':
-                done+=1
+                ((tagstat['stations'])[tag['station']])['Done'] += 1
+                ((tagstat['stations'])[tag['station']])['Total'] += 1
+                done += 1 #main counter update
+            elif tag['status']  == 'Pending':
+                 ((tagstat['stations'])[tag['station']])['Pending'] += 1
+                 ((tagstat['stations'])[tag['station']])['Total'] += 1
+
         tagstat['wikipname']=wikipname
         tagstat['total']=len(tags)
         tagstat['done']=done
-        tagstat['perc']=done/(len(tags)+1)*100
+        tagstat['perc']=done/(len(tags))*100
         wikistat[wikipname]=tagstat
 
     return render(request,'status.html', {'wikistat': json.dumps(wikistat)})

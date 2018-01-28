@@ -21,15 +21,15 @@ function createTable(data) {
     var html = '';
     // Assume data is an array of arrays,
     // containing strings.
-    html += '<table width="800" border="5" cellspacing="0" cellpadding="0"  style="border: 1px dotted #ccc; border-top: none; border-bottom: none;">';
+    html += '<table width="1800" border="5" cellspacing="0" cellpadding="0"  style="border: 6px solid #ccc; border-top: none; border-bottom: none;">';
     // Step through the rows of the data.
     for(var row in data) {
         var rowData = data[row];
         if(row == 0) {
-            html += '<tr>';
+            html += '<tr style="border: 6px solid #ccc;">';
         }
         else {
-            html += '<tr>';
+            html += '<tr style="border: 6px solid #ccc;">';
         }
         // Step through the columns in
         // this row.
@@ -43,18 +43,64 @@ function createTable(data) {
             var colData = rowData[col];
             coldlst.push(colData);
         }
-        html += '<td width="100px"  style="padding-left: 12px; padding-right: 12px; padding-top: 12px; font-family:Arial; font-size: 30px; background-color:#effff3;"><p>';
-        html += '<a href="/statuslist/detail/'+coldlst[0]+'">'+coldlst[0]+'</a>';
+        html += '<td width="50px"  style="padding-left: 7px; padding-right: 7px; padding-top: 12px; font-family:Arial; font-size: 30px; background-color:#effff3;"><p>';
+        html += '<a href="/statuslist/detail/'+coldlst[1]+'">'+coldlst[1]+'</a>';
+        html += '</td>';
+
+        html += '<td width="120px"  style="padding-left: 8px; padding-right: 1px; padding-top: 1px;font-family:Arial; font-size: 23px;background-color:#effff3;"><p>';
+        html += coldlst[3]+' / '+coldlst[2];
+
+        html += '</p></td>';
+        html += '<td width="100px"  style="padding-left: 9px; padding-right: 9px; padding-top: 12px;font-family:Arial; font-size: 18px;background-color:#effff3;"><p>';
+        //iteration over station data
+
+        html += '<table width="1000" border="5" cellspacing="0" cellpadding="0"  style="border: 1px dotted #ccc; border-top: none; border-bottom: none;">';
+        for(var st in coldlst[0]) {
+
+            var stData = coldlst[0][st];
+        if(st == 0) {
+            html += '<tr>';
+        }
+        else {
+            html += '<tr>';
+        }
+        // Step through the columns in
+        // this row.
+        //        for(var i=0; i<rowData.length; i++) {
+        //    var colData = rowData[i];
+
+            //iteration over station data
+        var stlist = [];
+        for (var stcol in stData)
+
+        {
+            var stcolData = stData[stcol];
+            stlist.push(stcolData);
+        }
+
+         html += '<td width="350px"  style="padding-left: 12px; padding-right: 12px; padding-top: 12px; font-family:Arial; font-size: 30px; background-color:#effff3;">';
+        html +=  st;
         html += '</td>';
 
         html += '<td width="100px"  style="padding-left: 9px; padding-right: 9px; padding-top: 12px;font-family:Arial; font-size: 18px;background-color:#effff3;"><p>';
-        html += coldlst[1]+' / '+coldlst[2];
-        html += '</p></td>';
+        html += stlist[0]+' / '+stlist[2];
 
+        html += '</p></td>';
         html += '<td width="400px"  style="padding-left: 9px; padding-right:9px; padding-top: 12px;font-family:Arial; font-size: 12px;">';
         html += '<div class="progress" id="bg" style="font-family:Arial; font-size: 18px; width:100%; background-color:#d8ffe2;">';
-        html += '<div div class="progress-bar" role="progressbar" aria-valuenow='+coldlst[3]+'aria-valuemin="0" aria-valuemax="100" style="background-color:#96d631;width:'+coldlst[3]+'%">' +
-            '</div> <span class="my-centered" style="position: absolute;display: block; width: 100%;">'+parseInt(coldlst[3])+'%</span></div>';
+        html += '<div class="progress-bar" role="progressbar" aria-valuenow='+stlist[2]+'aria-valuemin="0" aria-valuemax="100" style="background-color:#96d631;width:'+stlist[0]/stlist[2]*100+'%">' +
+            '</div> <span class="my-centered" style="position: absolute;display: block; width: 100%;">'+parseInt(stlist[0]/stlist[2]*100)+'%</span></div>';
+        html += '</td>';
+        html += '</tr>';
+        }
+        html += '</table>';
+         //iteration over station data
+
+        html += '<td width="500px"  style="padding-left: 9px; padding-right:9px; padding-top: 12px;font-family:Arial; font-size: 12px;">';
+        html += '<div class="progress" id="bg" style="font-family:Arial; font-size: 50px; height: 80px; width:100%; background-color:#d8ffe2;">';
+        html += '<div class="progress-bar" role="progressbar" aria-valuenow='+coldlst[4]+'aria-valuemin="0" aria-valuemax="100" style="background-color:#96d631; width:'+coldlst[4]+'%">' +
+            '</div> <span class="my-centered" style="position: absolute;display: block; width: 100%;">'+parseInt(coldlst[4])+'%</span></div>';
+        html +=  '<span style="font-size: 28px; padding-left: 40%; ">'+coldlst[3]+' / '+coldlst[2]+'</span>';
         html += '</td>';
         html += '</tr>';
     }
