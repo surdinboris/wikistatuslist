@@ -255,7 +255,7 @@ submit  "SUBMIT"
 <hidden>
 <todo @qc #idor:2018-01-25> וודא חתימת QC2 במסמך U Utility drawer  Final Visual Inspection1. </todo> \\
 <todo @qc #idor:2018-01-25> הסר מדבקות בדיקה מה-BBU(וודא סימון נדרש) והדבק אותן ע"ג ה-H.C </todo> \\
-<todo @qc> בצע בדיקת חיווט עפ"י מסמך ICD. </todo> \\
+<todo @qc #idor:2018-01-28> בצע בדיקת חיווט עפ"י מסמך ICD. </todo> \\
 <todo @qc #idor:2018-01-25> הורד כיסויי ניילון מהמכסים של מגירות ה-ENC </todo> \\
 **בדיקה קדמית-ארון** \\
 <todo @qc #idor:2018-01-25> וודא מדבקת Rack S/N תואמת למדבקת SN של המערכת </todo> \\
@@ -408,7 +408,7 @@ submit  "SUBMIT"
 </form>
 </WRAP>
 </hidden>
- **Done** ** ** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-25 16:10** \\  **Done** ** ** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-25 16:11** \\ <pagemod sys35_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-25 16:10** \\  **Done** ** ** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-25 16:11** \\  **Done** ** ** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-28 08:48** \\ <pagemod sys35_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS30-Custom ======
 <hidden>
 <todo @prod #natan:2018-01-25>בדוק קיום מק"ט על ה-NODE תואם את המצויין ב-Hard Card </todo> \\
@@ -604,36 +604,36 @@ submit  "SUBMIT"
 <pagemod sys40hot_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS45 QC ======
 <hidden>
-<todo @qc> וודא מסמך Hard Card תואם את המכונה. </todo> \\
-<todo @qc> בצע בדיקת חיווט עפ"י מסמך ICD. </todo> \\
+<todo @qc #idor:2018-01-28> וודא מסמך Hard Card תואם את המכונה. </todo> \\
+<todo @qc #idor:2018-01-28> בצע בדיקת חיווט עפ"י מסמך ICD. </todo> \\
 **NODEבדיקה קדמית-** \\
-<todo @qc> יש לוודא שמק"ט DELL במדבקה תואם למק"ט </todo> \\
+<todo @qc #idor:2018-01-28> יש לוודא שמק"ט DELL במדבקה תואם למק"ט </todo> \\
 המופיע ב-.HARD CARD בנוסף לוודא אופטי\קופר, גודל GB . \\
-<todo @qc> מדבקת "INFINIDAT" אובלית בחזית כל NODE ללא פגיעות צבע , ישרה ומותאמת לבסיס האובלי של הפנל </todo> \\         
-<todo @qc> וודא שהפנל שלם ללא פגיעות </todo> \\
-<todo @qc> R730 וודא מפתח נעילה קיים בפנל בחלק הפנימי </todo> \\
+<todo @qc #idor:2018-01-28> מדבקת "INFINIDAT" אובלית בחזית כל NODE ללא פגיעות צבע , ישרה ומותאמת לבסיס האובלי של הפנל </todo> \\         
+<todo @qc #idor:2018-01-28> וודא שהפנל שלם ללא פגיעות </todo> \\
+<todo @qc #idor:2018-01-28> R730 וודא מפתח נעילה קיים בפנל בחלק הפנימי </todo> \\
 <todo @qc> R720 וודא מפתח נעילה של הכל הפנלים הוסר מהמכסה ואינו קיים </todo> \\
-<todo @qc> וודא ב-3 מכשירי NODE ברגים קדמיים סגורים. </todo> \\
-<todo @qc> פנל הפעלה ומחברים שלמים תקינים. </todo> \\
-<todo @qc> וודא 8 דיסקים לוקאלים. </todo> \\
-<todo @qc> הוצא את הדיסק החוצה וודא דיסקים לוקאלים בכל NODE זהים עם אותה סיומת במק"ט  0007 או 0088 </todo> \\
+<todo @qc #idor:2018-01-28> וודא ב-3 מכשירי NODE ברגים קדמיים סגורים. </todo> \\
+<todo @qc #idor:2018-01-28> פנל הפעלה ומחברים שלמים תקינים. </todo> \\
+<todo @qc #idor:2018-01-28> וודא 8 דיסקים לוקאלים. </todo> \\
+<todo @qc #idor:2018-01-28> הוצא את הדיסק החוצה וודא דיסקים לוקאלים בכל NODE זהים עם אותה סיומת במק"ט  0007 או 0088 </todo> \\
 {{:cdc:45-1.jpg?200|}} \\
-<todo @qc> בהחזרה וודא נועל דיסק תקין ונעילה של הדיסקים. </todo> \\
-<todo @qc> וודא מדבקות של הדיסקים מודבקים בתוך המסגרת ישרים נקיים ואינם מתקלפים. </todo> \\
-<todo @qc> הוצא את הכיסויים של פתחי ה-HDD\SSD וודא שהם שלמים ללא פגיעות פלסטיקה ועיוותים. </todo> \\
+<todo @qc #idor:2018-01-28> בהחזרה וודא נועל דיסק תקין ונעילה של הדיסקים. </todo> \\
+<todo @qc #idor:2018-01-28> וודא מדבקות של הדיסקים מודבקים בתוך המסגרת ישרים נקיים ואינם מתקלפים. </todo> \\
+<todo @qc #idor:2018-01-28> הוצא את הכיסויים של פתחי ה-HDD\SSD וודא שהם שלמים ללא פגיעות פלסטיקה ועיוותים. </todo> \\
 תמונה= תקין \\
 {{:cdc:45-2.jpg?200|}}\\
-<todo @qc> R720 -וודא קיום מדבקת מספור HDD 1-16. </todo> \\
+<todo @qc #idor:2018-01-28> R720 -וודא קיום מדבקת מספור HDD 1-16. </todo> \\
 R730-וודא קיום מדבקת מספור HDD 1-24.\\
 **PDUבדיקה אחורית-** \\
-<todo @qc> וודא קיום מדבקת זיהוי לבנה על גבי כל אחד מה-PDU. בהתאם לתצורה </todo> \\
-<todo @qc> וודא פלסטיק של מפסק ON/OFF של PDU שלם ולא שבור. </todo> \\
+<todo @qc #idor:2018-01-28> וודא קיום מדבקת זיהוי לבנה על גבי כל אחד מה-PDU. בהתאם לתצורה </todo> \\
+<todo @qc #idor:2018-01-28> וודא פלסטיק של מפסק ON/OFF של PDU שלם ולא שבור. </todo> \\
 {{:cdc:45-7.jpg?200|}} \\
 <todo @qc #idor:2018-01-28> וודא במשיכה שכל הכבלי POWER המחוברים ל-PDU נואינת ניתקים. </todo> \\
 <todo @qc> עבור מערכת F2/F4-וודא מכסים אדומים לקונקטורים ללא חיווט. </todo> \\
 <todo @qc #idor:2018-01-28> וודא פינים של הקונקטור ישרים וללא פגיעות </todo> \\
 <todo @qc #idor:2018-01-28> וודא שכל PDU מורכב בקדחי חור המנעול העליון והתחתון של ה-TIE-BAR </todo> \\
-<todo @qc> וודא מק"טים אחידים של ה-PDU מול ההרכבה. </todo> \\
+<todo @qc #idor:2018-01-28> וודא מק"טים אחידים של ה-PDU מול ההרכבה. </todo> \\
 <todo @qc #idor:2018-01-28> וודא קשתות אחידות </todo> \\
 <todo @qc #idor:2018-01-28> וודא כבלי רשת לא שבורים (ללא קמטים) רדיוס </todo> \\
 <todo @qc #idor:2018-01-28> וודא חיבור כבל רשת לפורט השמאלי ב-PDU. </todo> \\
@@ -663,7 +663,7 @@ submit  "SUBMIT"
 </form>
 </WRAP>
 </hidden>
-<pagemod sys45qc_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-28 08:47** \\ <pagemod sys45qc_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS50 in IVT ======
 <hidden>
 <todo @ivt> הכנסה את המכונה לאינטגרציה </todo> \\

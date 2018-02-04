@@ -631,13 +631,13 @@ R730-וודא קיום מדבקת מספור HDD   1-24.
 <todo @qc #idor:2018-01-21>וודא שכל הברגים קימים ומחוזקים 4 ברגים בכל צד </todo> \\
 
 
-<todo @qc #danielo:2018-01-22>הסר מדבקות זיהוי ממכשירי ה-NODE והדבק את המדבקות על גבי ה-H.C. </todo> \\
+<todo @qc #alexandrm:2018-01-28 #alexandrm:2018-01-28>הסר מדבקות זיהוי ממכשירי ה-NODE והדבק את המדבקות על גבי ה-H.C. </todo> \\
 <do>sys45:</do>
 </hidden>
 ----
 ====== SYS50 in IVT ======
 <hidden>
-<todo @ivt> הכנסה את המכונה לאינטגרציה </todo> \\
+<todo @ivt #ALEX> הכנסה את המכונה לאינטגרציה </todo> \\
 **per** [[ http://10.148.38.142/wiki/doku.php?id=start | WiKi page]] \\
 <todo #danielo:2018-01-22>.</todo> \\
 <todo @prod #danielo:2018-01-22>פתח 4 רגליות של הארון כלפי הרצפה </todo> \\
@@ -648,7 +648,7 @@ R730-וודא קיום מדבקת מספור HDD   1-24.
 ----
 ====== SYS57 out IVT ======
 <hidden>
-<todo @ivt> הוצאה את המכומה מאינטגרציה</todo> \\
+<todo @ivt #ALEX> הוצאה את המכומה מאינטגרציה</todo> \\
 **per** [[http://10.148.38.142/wiki/doku.php?id=start | WiKi page]] \\
 <todo>.</todo> \\
 <todo @prod>זהה מכונה שנדרשת לפרק דיסקים

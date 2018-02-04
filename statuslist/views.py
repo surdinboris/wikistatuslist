@@ -44,3 +44,6 @@ def detail(request,ibox):
             parsr = Collector(os.path.join(os.getcwd(), 'cdc/', wikip))
             tags=parsr.tagsclctr
     return render(request,'detail.html', {'ibox': ibox, 'tags':tags})
+
+def jstst(request):
+    return render(request,'jstst.html')

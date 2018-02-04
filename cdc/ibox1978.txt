@@ -713,7 +713,7 @@ R730-וודא קיום מדבקת מספור HDD   1-24.
 <todo @qc #idor:2018-01-16>וודא מדבקות זיהוי לבנות על המסילה הימנית ישרות ואינן מתקלפות בהתאם למספור המכשיר </todo> \\
 
 <todo @qc>הסר מדבקות זיהוי ממכשירי ה-NODE והדבק את המדבקות על גבי ה-H.C. </todo> \\
-<todo @qc>וודא שאין הערות פתוחות שטרם נסגרו שמונעות את הורדת הארון ל-IVT </todo> \\
+<todo @qc #alexandrm:2018-01-28 #alexandrm:2018-01-28 #alexandrm:2018-01-28>וודא שאין הערות פתוחות שטרם נסגרו שמונעות את הורדת הארון ל-IVT </todo> \\
 <todo>.</todo> \\
 <WRAP 300px bggrey >
 <form> 
@@ -727,7 +727,7 @@ textbox "Free text area" "= "
  **Done** ** חסר סעיפים בבדיקה** **by** **<color #22b14c>Ido Reuven</color>**  **at** **2018-01-16 08:28** \\ <pagemod sys45qc_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS50 in IVT ======
 <hidden>
-<todo @ivt> הכנסה את המכונה לאינטגרציה </todo> \\
+<todo @ivt #ALEX> הכנסה את המכונה לאינטגרציה </todo> \\
 **per** [[ http://10.148.38.142/wiki/doku.php?id=start | WiKi page]] \\
 <todo> </todo> \\
 <todo @prod>פתח 4 רגליות של הארון כלפי הרצפה </todo> \\
@@ -744,7 +744,7 @@ textbox "Free text area" "= "
 </form>
 </WRAP>
 </hidden>
-<pagemod sys50_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
+ **Done** ** ** **by** **<color #22b14c>Alexandr Morgalio</color>**  **at** **2018-01-28 08:11** \\ <pagemod sys50_issue_cell output_before> **@@Status@@** **@@Free text area@@** **by** **<color #22b14c>@@meta.user.name@@</color>**  **at** **@@meta.date.format.Y-m-d H:i@@** \\ </pagemod>
 ====== SYS57 out IVT ======
 <hidden>
 <todo @ivt> הוצאה את המכומה מאינטגרציה</todo> \\
